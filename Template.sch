@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/21/2012 6:15:14 AM
+EESchema Schematic File Version 2  date 6/21/2012 6:24:00 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -126,7 +126,7 @@ L R R2
 U 1 1 4FE2F091
 P 1700 2450
 F 0 "R2" V 1780 2450 50  0000 C CNN
-F 1 "R" V 1700 2450 50  0000 C CNN
+F 1 "390" V 1700 2450 50  0000 C CNN
 	1    1700 2450
 	1    0    0    -1  
 $EndComp
