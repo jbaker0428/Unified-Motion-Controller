@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/21/2012 6:09:57 AM
+EESchema Schematic File Version 2  date 6/21/2012 6:15:14 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,10 +36,10 @@ EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Motion Controller template"
 Date "21 jun 2012"
-Rev ""
-Comp ""
+Rev "0"
+Comp "Unified Robotics"
 Comment1 ""
 Comment2 ""
 Comment3 ""
