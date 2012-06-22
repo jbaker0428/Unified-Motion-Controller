@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/22/2012 6:49:30 AM
+EESchema Schematic File Version 2  date 6/22/2012 7:08:08 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -306,8 +306,6 @@ F 1 "CONN_2" V 5750 4400 40  0000 C CNN
 	1    5700 4400
 	-1   0    0    1   
 $EndComp
-Text Notes 5600 3850 0    60   ~ 0
-<= 10k
 Text Notes 6300 4300 0    60   ~ 0
 <= 470
 Text Label 6650 4150 0    60   ~ 0
@@ -328,7 +326,7 @@ L R R4
 U 1 1 4FE3DD5D
 P 6050 3800
 F 0 "R4" V 6130 3800 50  0000 C CNN
-F 1 "R" V 6050 3800 50  0000 C CNN
+F 1 "10K" V 6050 3800 50  0000 C CNN
 F 2 "SM0603" H 6050 3800 60  0001 C CNN
 	1    6050 3800
 	1    0    0    -1  
