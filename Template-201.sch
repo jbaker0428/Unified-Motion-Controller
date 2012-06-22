@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/22/2012 5:19:37 AM
+EESchema Schematic File Version 2  date 6/22/2012 6:49:30 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -506,8 +506,10 @@ L C C2
 U 1 1 4FE2EFF3
 P 2500 2450
 F 0 "C2" H 2550 2550 50  0000 L CNN
-F 1 "0.1uF" H 2550 2350 50  0000 L CNN
-F 2 "SM0603" H 2500 2450 60  0001 C CNN
+F 1 "4.7uF" H 2550 2350 50  0000 L CNN
+F 2 "SM0805" H 2250 2350 60  0000 C CNN
+F 4 "Taiyo Yuden" H 2500 2450 60  0001 C CNN "Manufacturer"
+F 5 "EMK212BJ475KG-T" H 2500 2450 60  0001 C CNN "MPN"
 	1    2500 2450
 	1    0    0    -1  
 $EndComp
