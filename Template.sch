@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/21/2012 6:24:00 AM
+EESchema Schematic File Version 2  date 6/21/2012 11:48:16 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "Motion Controller template"
-Date "21 jun 2012"
+Date "22 jun 2012"
 Rev "0"
 Comp "Unified Robotics"
 Comment1 ""
@@ -45,6 +45,27 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	9050 2100 9550 2100
+Connection ~ 8500 4450
+Wire Wire Line
+	8500 4450 9000 4450
+Wire Wire Line
+	9000 4450 9000 4500
+Wire Wire Line
+	6050 4650 6050 4500
+Wire Wire Line
+	7400 1050 7400 1100
+Wire Wire Line
+	7400 2900 7400 2950
+Wire Wire Line
+	7400 2950 7300 2950
+Wire Wire Line
+	7300 2950 7300 2900
+Wire Wire Line
+	8500 5000 8500 4900
+Wire Wire Line
+	6150 4150 6050 4150
 Wire Wire Line
 	1200 1500 1200 1150
 Wire Wire Line
@@ -56,36 +77,36 @@ Connection ~ 2500 2800
 Wire Wire Line
 	2950 2050 2950 2800
 Wire Wire Line
-	1700 2900 1700 2700
+	1700 2700 1700 2900
 Wire Wire Line
-	2100 1500 3100 1500
+	3100 1500 2100 1500
 Connection ~ 1150 1500
 Wire Wire Line
-	1150 1650 1150 1500
+	1150 1500 1150 1650
 Connection ~ 2200 2150
 Wire Wire Line
 	2200 2100 2200 2150
 Connection ~ 2500 2150
 Wire Wire Line
-	1700 2150 2500 2150
+	2500 2150 1700 2150
 Connection ~ 2200 1500
 Wire Wire Line
 	2200 1500 2200 1600
 Connection ~ 2950 1500
 Wire Wire Line
-	2950 1500 2950 1650
+	2950 1650 2950 1500
 Wire Wire Line
 	2500 1500 2500 1650
 Connection ~ 2500 1500
 Wire Wire Line
-	2500 2050 2500 2250
+	2500 2250 2500 2050
 Wire Wire Line
-	1700 2200 1700 2000
+	1700 2000 1700 2200
 Connection ~ 1700 2150
 Wire Wire Line
-	1000 1500 1300 1500
+	1300 1500 1000 1500
 Wire Wire Line
-	2500 2800 2500 2650
+	2500 2650 2500 2800
 Connection ~ 1700 2800
 Wire Wire Line
 	1150 2050 1150 2800
@@ -94,6 +115,177 @@ Wire Wire Line
 Connection ~ 1200 1500
 Wire Wire Line
 	2350 1150 2050 1150
+Wire Wire Line
+	6050 3500 6050 3550
+Wire Wire Line
+	8500 4500 8500 4400
+Wire Wire Line
+	9950 2100 10000 2100
+Wire Wire Line
+	7350 3050 7350 2950
+Connection ~ 7350 2950
+Wire Wire Line
+	6050 5050 6050 5100
+Wire Wire Line
+	6050 4300 6050 4050
+Connection ~ 6050 4150
+Wire Wire Line
+	9000 4900 9000 4950
+Wire Wire Line
+	9000 4950 8500 4950
+Connection ~ 8500 4950
+$Comp
+L C C5
+U 1 1 4FE3E859
+P 9000 4700
+F 0 "C5" H 9050 4800 50  0000 L CNN
+F 1 "0.01uF" H 9050 4600 50  0000 L CNN
+F 2 "0603" H 8700 4800 60  0001 C CNN
+	1    9000 4700
+	1    0    0    -1  
+$EndComp
+Text Notes 6200 4450 0    60   ~ 0
+Place within 6mm of MCLR pin
+$Comp
+L CONN_2 JP1
+U 1 1 4FE3E032
+P 5700 4400
+F 0 "JP1" V 5650 4400 40  0000 C CNN
+F 1 "CONN_2" V 5750 4400 40  0000 C CNN
+	1    5700 4400
+	-1   0    0    1   
+$EndComp
+Text Notes 5600 3850 0    60   ~ 0
+<= 10k
+Text Notes 6300 4300 0    60   ~ 0
+<= 470
+Text Label 6650 4150 0    60   ~ 0
+MCLR
+Text Label 5650 1600 2    60   ~ 0
+MCLR
+$Comp
+L R R3
+U 1 1 4FE3DD64
+P 6400 4150
+F 0 "R3" V 6480 4150 50  0000 C CNN
+F 1 "R" V 6400 4150 50  0000 C CNN
+	1    6400 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R4
+U 1 1 4FE3DD5D
+P 6050 3800
+F 0 "R4" V 6130 3800 50  0000 C CNN
+F 1 "R" V 6050 3800 50  0000 C CNN
+	1    6050 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FE3DD2C
+P 6050 5100
+F 0 "#PWR?" H 6050 5100 30  0001 C CNN
+F 1 "GND" H 6050 5030 30  0001 C CNN
+	1    6050 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FE3DD25
+P 6050 3500
+F 0 "#PWR?" H 6050 3460 30  0001 C CNN
+F 1 "+3.3V" H 6050 3610 30  0000 C CNN
+	1    6050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C7
+U 1 1 4FE3DD20
+P 6050 4850
+F 0 "C7" H 6100 4950 50  0000 L CNN
+F 1 "C" H 6100 4750 50  0000 L CNN
+F 2 "0603" H 6050 4850 60  0001 C CNN
+	1    6050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FE2F9FD
+P 10000 2100
+F 0 "#PWR?" H 10000 2100 30  0001 C CNN
+F 1 "GND" H 10000 2030 30  0001 C CNN
+	1    10000 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C6
+U 1 1 4FE2F94E
+P 9750 2100
+F 0 "C6" V 9900 2200 50  0000 L CNN
+F 1 "4.7uF" V 9600 2100 50  0000 L CNN
+F 2 "0805" V 9600 1900 60  0000 C CNN
+F 4 "Taiyo Yuden" H 9750 2100 60  0001 C CNN "Manufacturer"
+F 5 "EMK212BJ475KG-T" H 9750 2100 60  0001 C CNN "MPN"
+	1    9750 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FE2F6CE
+P 8500 5000
+F 0 "#PWR?" H 8500 5000 30  0001 C CNN
+F 1 "GND" H 8500 4930 30  0001 C CNN
+	1    8500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FE2F6CA
+P 7350 3050
+F 0 "#PWR?" H 7350 3050 30  0001 C CNN
+F 1 "GND" H 7350 2980 30  0001 C CNN
+	1    7350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FE2F6C7
+P 7400 1050
+F 0 "#PWR?" H 7400 1010 30  0001 C CNN
+F 1 "+3.3V" H 7400 1160 30  0000 C CNN
+	1    7400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FE2F6C1
+P 8500 4400
+F 0 "#PWR?" H 8500 4360 30  0001 C CNN
+F 1 "+3.3V" H 8500 4510 30  0000 C CNN
+	1    8500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 4FE2F6A1
+P 8500 4700
+F 0 "C4" H 8550 4800 50  0000 L CNN
+F 1 "0.1uF" H 8550 4600 50  0000 L CNN
+F 2 "0603" H 8200 4800 60  0001 C CNN
+	1    8500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DSPIC33FJ12MC201 U?
+U 1 1 4FE2F69A
+P 7350 2000
+F 0 "U?" H 6000 2650 50  0000 C CNN
+F 1 "DSPIC33FJ12MC201" H 6350 1350 50  0000 C CNN
+F 4 "Microchip" H 8600 1350 50  0001 C CNN "Manufacturer"
+	1    7350 2000
+	1    0    0    -1  
+$EndComp
 $Comp
 L +3.3V #PWR?
 U 1 1 4FE2F204
