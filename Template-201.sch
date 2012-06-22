@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/22/2012 7:08:08 AM
+EESchema Schematic File Version 2  date 6/22/2012 7:09:20 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -318,6 +318,7 @@ U 1 1 4FE3DD64
 P 6400 4150
 F 0 "R3" V 6480 4150 50  0000 C CNN
 F 1 "R" V 6400 4150 50  0000 C CNN
+F 2 "SM0603" H 6400 4150 60  0001 C CNN
 	1    6400 4150
 	0    -1   -1   0   
 $EndComp
