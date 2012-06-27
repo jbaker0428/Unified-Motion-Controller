@@ -1,5 +1,5 @@
-update=6/21/2012 5:46:51 AM
-last_client=eeschema
+update=6/25/2012 7:12:14 AM
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=C:/Users/Joe/Dropbox/Kicad-Libraries/library
@@ -64,3 +64,38 @@ LibName29=contrib
 LibName30=valves
 LibName31=dspic
 LibName32=st
+[pcbnew]
+version=1
+PadDrlX=0
+PadDimH=472
+PadDimV=472
+BoardThickness=630
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=75
+LastNetListRead=
+[pcbnew/libraries]
+LibDir=C:/Users/Joe/Dropbox/Kicad-Libraries/modules
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=smd_diodes
+LibName12=smd_inductors
+LibName13=opendous
+LibName14=smd_capacitors
+LibName15=smd_resistors
+LibName16=smd_dil
