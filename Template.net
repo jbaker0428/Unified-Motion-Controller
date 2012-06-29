@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  6/29/2012 2:29:27 AM
+# EESchema Netlist Version 1.1 created  6/29/2012 2:37:30 AM
 (
  ( /4FEBC2EF SM0603  FB1 FILTER {Lib=FILTER}
   (    1 VDD )
@@ -166,7 +166,7 @@
   (    1 VDD )
   (    2 VAUX )
  )
- ( /4FE45CBC SOT23  Q1 MOS_P {Lib=MOS_P}
+ ( /4FE45CBC SOT23GDS  Q1 MOS_P {Lib=MOS_P}
   (    D N-000034 )
   (    G VAUX )
   (    S /U1_EN )
