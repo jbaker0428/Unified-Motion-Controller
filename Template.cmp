@@ -1,0 +1,269 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 6/29/2012 3:07:25 AM
+
+BeginCmp
+TimeStamp = /4FEA7464;
+Reference = C1;
+ValeurCmp = 33uF;
+IdModule  = cap-master-E-020X060;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE82BC3;
+Reference = C2;
+ValeurCmp = 4.7uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE82CDE;
+Reference = C3;
+ValeurCmp = 0.039uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE82D90;
+Reference = C4;
+ValeurCmp = 0.010uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE82EFA;
+Reference = C5;
+ValeurCmp = 0.100uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE830FA;
+Reference = C6;
+ValeurCmp = 47uF;
+IdModule  = c_tant_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEA67F4;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEA76A5;
+Reference = C8;
+ValeurCmp = 33uF;
+IdModule  = cap-master-E-020X060;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEA7BB8;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE2F6A1;
+Reference = C10;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE3E859;
+Reference = C11;
+ValeurCmp = 0.01uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEA3E41;
+Reference = C12;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEA3E40;
+Reference = C13;
+ValeurCmp = 0.01uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEA47AC;
+Reference = C14;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEA47AD;
+Reference = C15;
+ValeurCmp = 0.01uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE9B439;
+Reference = D1;
+ValeurCmp = ZENER-2.4V;
+IdModule  = SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE82F2F;
+Reference = D2;
+ValeurCmp = DIODESCH;
+IdModule  = SOD323F-REFLOW;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE46049;
+Reference = D3;
+ValeurCmp = DIODESCH;
+IdModule  = SOD323F-REFLOW;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE45F9A;
+Reference = D4;
+ValeurCmp = DIODESCH;
+IdModule  = SOD323F-REFLOW;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEAA7BB;
+Reference = D5;
+ValeurCmp = TVS;
+IdModule  = SMB;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEAA7C0;
+Reference = D6;
+ValeurCmp = ESD_ZENER;
+IdModule  = SOD323-REFLOW;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEBC2EF;
+Reference = FB1;
+ValeurCmp = FILTER;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE465F5;
+Reference = J1;
+ValeurCmp = CONN_2;
+IdModule  = 1776275-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE9BF3F;
+Reference = J2;
+ValeurCmp = CONN_9;
+IdModule  = SIL-9;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE3F70A;
+Reference = JP1;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE82F8E;
+Reference = L1;
+ValeurCmp = 47uH;
+IdModule  = VLCF4020;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE45CBC;
+Reference = Q1;
+ValeurCmp = MOS_P;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE82C15;
+Reference = R1;
+ValeurCmp = 105K;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE82C6A;
+Reference = R2;
+ValeurCmp = 35.7K;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE82CB2;
+Reference = R3;
+ValeurCmp = 8.06K;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE82E34;
+Reference = R4;
+ValeurCmp = 97.6K;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE8301B;
+Reference = R5;
+ValeurCmp = 53.6K;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE83029;
+Reference = R6;
+ValeurCmp = 10K;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE3DD64;
+Reference = R7;
+ValeurCmp = 470;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE3F779;
+Reference = R9;
+ValeurCmp = 1K;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE3F7AE;
+Reference = R10;
+ValeurCmp = 1K;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE82802;
+Reference = U1;
+ValeurCmp = TPS54040;
+IdModule  = S-PDSO-G10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEA3DE8;
+Reference = U2;
+ValeurCmp = DSPIC30F2010-SO;
+IdModule  = SOIC28W;
+EndCmp
+
+EndListe
