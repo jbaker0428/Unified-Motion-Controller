@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  6/29/2012 4:08:35 AM
+# EESchema Netlist Version 1.1 created  6/29/2012 5:50:21 AM
 (
  ( /4FEBC2EF SM0603  FB1 FILTER {Lib=FILTER}
   (    1 VDD )
@@ -155,8 +155,8 @@
   (   11 GND )
  )
  ( /4FE465F5 1776275-2  J1 CONN_2 {Lib=CONN_2}
-  (    1 VCC )
-  (    2 GND )
+  (    1 GND )
+  (    2 VCC )
  )
  ( /4FE46049 SOD323F-REFLOW  D3 DIODESCH {Lib=D_SCHOTTKY}
   (    1 VDD )
@@ -373,9 +373,9 @@ $endfootprintlist
 Net 11 "GND" "GND"
  R2 2
  C2 2
- J1 2
  C10 2
  C11 2
+ J1 1
  R9 1
  R10 1
  U1 9
@@ -408,20 +408,20 @@ Net 12 "VDD" "VDD"
  U2 20
  U2 13
  FB1 1
- C15 1
+ R7 1
  D4 1
  D3 1
- R7 1
+ C15 1
  C11 1
  C14 1
  C10 1
 Net 13 "VCC" "VCC"
  C1 1
  D5 1
- J1 1
  R1 1
  C2 1
  U1 2
+ J1 2
 Net 14 "AVDD" "AVDD"
  FB1 2
  U2 28
@@ -436,8 +436,8 @@ Net 20 "/SS" "SS"
  U2 4
 Net 23 "/MCLR" "MCLR"
  J2 1
- U2 1
  R7 2
+ U2 1
 Net 24 "VAUX" "VAUX"
  C9 1
  C8 1
@@ -460,16 +460,16 @@ Net 28 "/S1PD" "S1PD"
 Net 29 "/U1_OUT" "U1_OUT"
  C7 1
  R5 1
+ C6 1
  L1 2
  D3 2
- C6 1
 Net 30 "" ""
  U1 1
  C5 1
 Net 31 "/U1_VSENSE" "U1_VSENSE"
- R6 1
- U1 7
  R5 2
+ U1 7
+ R6 1
 Net 32 "/PWRGD" "PWRGD"
  J2 9
  U1 6

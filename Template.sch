@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/29/2012 4:08:29 AM
+EESchema Schematic File Version 2  date 6/29/2012 5:50:16 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -835,7 +835,7 @@ F 2 "1776275-2" H 700 850 60  0001 C CNN
 F 4 "TE Connectivity" H 700 850 60  0001 C CNN "Manufacturer"
 F 5 "1776275-2" H 700 850 60  0001 C CNN "MPN"
 	1    700  850 
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L VDD #PWR014
