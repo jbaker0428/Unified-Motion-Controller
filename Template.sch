@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/29/2012 1:04:37 AM
+EESchema Schematic File Version 2  date 6/29/2012 2:01:43 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,14 +28,10 @@ LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
 LIBS:dspic
 LIBS:st
 LIBS:opendous
 LIBS:vreg
-LIBS:sensors
-LIBS:pspice
-LIBS:cap-pan
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
