@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  6/29/2012 1:04:33 AM
+# EESchema Netlist Version 1.1 created  6/29/2012 2:29:27 AM
 (
  ( /4FEBC2EF SM0603  FB1 FILTER {Lib=FILTER}
   (    1 VDD )
@@ -25,7 +25,7 @@
   (    2 GND )
  )
  ( /4FEA67F4 c_0402  C7 0.1uF {Lib=C}
-  (    1 N-000011 )
+  (    1 /U1_OUT )
   (    2 GND )
  )
  ( /4FEA47AD c_0402  C15 0.01uF {Lib=C}
@@ -44,7 +44,7 @@
   (    1 VDD )
   (    2 GND )
  )
- ( /4FEA3DE8 SOIC28  U2 DSPIC30F2010-SO {Lib=DSPIC30F2010-SO}
+ ( /4FEA3DE8 SOIC28W  U2 DSPIC30F2010-SO {Lib=DSPIC30F2010-SO}
   (    1 /MCLR )
   (    2 ? )
   (    3 ? )
@@ -55,8 +55,8 @@
   (    8 GND )
   (    9 ? )
   (   10 ? )
-  (   11 /SEL0 )
-  (   12 /SEL1 )
+  (   11 /U2_SEL0 )
+  (   12 /U2_SEL1 )
   (   13 VDD )
   (   14 ? )
   (   15 ? )
@@ -86,72 +86,72 @@
   (    9 GND )
  )
  ( /4FE9B439 SOD123  D1 ZENER-2.4V {Lib=D_ZENER}
-  (    1 N-000013 )
+  (    1 /U1_EN )
   (    2 GND )
  )
  ( /4FE830FA c_tant_B  C6 47uF {Lib=CP1}
-  (    1 N-000011 )
+  (    1 /U1_OUT )
   (    2 GND )
  )
  ( /4FE83029 SM0402  R6 10K {Lib=R}
-  (    1 N-000034 )
+  (    1 /U1_VSENSE )
   (    2 GND )
  )
  ( /4FE8301B SM0402  R5 53.6K {Lib=R}
-  (    1 N-000011 )
-  (    2 N-000034 )
+  (    1 /U1_OUT )
+  (    2 /U1_VSENSE )
  )
  ( /4FE82F8E VLCF4020  L1 47uH {Lib=INDUCTOR}
-  (    1 N-000039 )
-  (    2 N-000011 )
+  (    1 /U1_PH )
+  (    2 /U1_OUT )
  )
  ( /4FE82F2F SOD323F-REFLOW  D2 DIODESCH {Lib=D_SCHOTTKY}
-  (    1 N-000039 )
+  (    1 /U1_PH )
   (    2 GND )
  )
  ( /4FE82EFA c_0402  C5 0.100uF {Lib=C}
-  (    1 N-000036 )
-  (    2 N-000039 )
+  (    1 N-000031 )
+  (    2 /U1_PH )
  )
  ( /4FE82E34 SM0402  R4 97.6K {Lib=R}
-  (    1 N-000032 )
+  (    1 /U1_RT )
   (    2 GND )
  )
  ( /4FE82D90 c_0402  C4 0.010uF {Lib=C}
-  (    1 N-000035 )
+  (    1 /U1_SS )
   (    2 GND )
  )
  ( /4FE82CDE c_0402  C3 0.039uF {Lib=C}
-  (    1 N-000031 )
+  (    1 N-000035 )
   (    2 GND )
  )
  ( /4FE82CB2 SM0402  R3 8.06K {Lib=R}
-  (    1 N-000033 )
-  (    2 N-000031 )
+  (    1 /U1_COMP )
+  (    2 N-000035 )
  )
  ( /4FE82C6A SM0402  R2 35.7K {Lib=R}
-  (    1 N-000013 )
+  (    1 /U1_EN )
   (    2 GND )
  )
  ( /4FE82C15 SM0402  R1 105K {Lib=R}
   (    1 VCC )
-  (    2 N-000037 )
+  (    2 N-000034 )
  )
  ( /4FE82BC3 c_1206  C2 4.7uF {Lib=C}
   (    1 VCC )
   (    2 GND )
  )
  ( /4FE82802 S-PDSO-G10  U1 TPS54040 {Lib=TPS54040}
-  (    1 N-000036 )
+  (    1 N-000031 )
   (    2 VCC )
-  (    3 N-000013 )
-  (    4 N-000035 )
-  (    5 N-000032 )
+  (    3 /U1_EN )
+  (    4 /U1_SS )
+  (    5 /U1_RT )
   (    6 /PWRGD )
-  (    7 N-000034 )
-  (    8 N-000033 )
+  (    7 /U1_VSENSE )
+  (    8 /U1_COMP )
   (    9 GND )
-  (   10 N-000039 )
+  (   10 /U1_PH )
   (   11 GND )
  )
  ( /4FE465F5 1776275-2  J1 CONN_2 {Lib=CONN_2}
@@ -160,30 +160,30 @@
  )
  ( /4FE46049 SOD323F-REFLOW  D3 DIODESCH {Lib=D_SCHOTTKY}
   (    1 VDD )
-  (    2 N-000011 )
+  (    2 /U1_OUT )
  )
  ( /4FE45F9A SOD323F-REFLOW  D4 DIODESCH {Lib=D_SCHOTTKY}
   (    1 VDD )
   (    2 VAUX )
  )
  ( /4FE45CBC SOT23  Q1 MOS_P {Lib=MOS_P}
-  (    D N-000037 )
+  (    D N-000034 )
   (    G VAUX )
-  (    S N-000013 )
+  (    S /U1_EN )
  )
  ( /4FE3F7AE SM0402  R10 1K {Lib=R}
   (    1 GND )
-  (    2 N-000028 )
+  (    2 N-000026 )
  )
  ( /4FE3F779 SM0402  R9 1K {Lib=R}
   (    1 GND )
-  (    2 N-000030 )
+  (    2 N-000028 )
  )
  ( /4FE3F70A PIN_ARRAY_2X2  JP1 CONN_2X2 {Lib=CONN_2X2}
-  (    1 N-000030 )
-  (    2 /SEL0 )
-  (    3 N-000028 )
-  (    4 /SEL1 )
+  (    1 N-000028 )
+  (    2 /U2_SEL0 )
+  (    3 N-000026 )
+  (    4 /U2_SEL1 )
  )
  ( /4FE3E859 c_0402  C11 0.01uF {Lib=C}
   (    1 VDD )
@@ -370,134 +370,134 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 2 "VDD" "VDD"
- FB1 1
- C15 1
- C14 1
- C11 1
- C12 1
- C13 1
- C10 1
+Net 2 "/SDO/SCL" "SDO/SCL"
+ J2 6
+ U2 17
+Net 4 "VDD" "VDD"
  R7 1
- U2 20
- U2 13
- J2 2
+ C13 1
+ C11 1
+ C10 1
+ FB1 1
  D3 1
+ C14 1
+ C15 1
+ C12 1
  D4 1
-Net 3 "/SCK" "SCK"
- U2 16
- J2 7
-Net 10 "/PWRGD" "PWRGD"
- U1 6
- J2 3
-Net 11 "" ""
- R5 1
- C7 1
- D3 2
- L1 2
- C6 1
-Net 13 "" ""
- Q1 S
- U1 3
- R2 1
- D1 1
-Net 14 "/SDI/SDA" "SDI/SDA"
- U2 18
- J2 5
-Net 17 "AVDD" "AVDD"
- U2 28
- FB1 2
-Net 25 "/MCLR" "MCLR"
- J2 4
- R7 2
- U2 1
-Net 26 "VAUX" "VAUX"
- C9 1
- Q1 G
- D4 2
- D6 1
- C8 1
- J2 1
-Net 27 "/SEL1" "SEL1"
- U2 12
- JP1 4
-Net 28 "" ""
- R10 2
- JP1 3
-Net 29 "/SEL0" "SEL0"
- JP1 2
- U2 11
-Net 30 "" ""
- R9 2
- JP1 1
-Net 31 "" ""
- C3 1
- R3 2
-Net 32 "" ""
- U1 5
- R4 1
-Net 33 "" ""
- U1 8
- R3 1
-Net 34 "" ""
- R5 2
- R6 1
- U1 7
-Net 35 "" ""
- C4 1
- U1 4
-Net 36 "" ""
- C5 1
- U1 1
-Net 37 "" ""
- R1 2
- Q1 D
-Net 38 "GND" "GND"
- J1 2
- C15 2
- C10 2
- C11 2
- C14 2
- R9 1
- R10 1
- D2 2
- C3 2
- C4 2
+ U2 20
+ J2 2
+ U2 13
+Net 12 "GND" "GND"
  R4 2
- C7 2
- U2 19
- U2 27
- D1 2
- J2 9
- C9 2
- C1 2
- C8 2
- D6 2
- U2 8
  C6 2
- C13 2
- C12 2
+ U1 11
+ U1 9
  C2 2
  R2 2
  R6 2
- U1 11
- U1 9
-Net 39 "" ""
- L1 1
- C5 2
- D2 1
- U1 10
+ D2 2
+ C11 2
+ C1 2
+ C12 2
+ C9 2
+ C13 2
+ C10 2
+ J1 2
+ C4 2
+ U2 8
+ R9 1
+ C3 2
+ U2 19
+ C7 2
+ R10 1
+ U2 27
+ D1 2
+ J2 9
+ C15 2
+ D6 2
+ C8 2
+ C14 2
+Net 15 "AVDD" "AVDD"
+ FB1 2
+ U2 28
+Net 20 "/SS" "SS"
+ U2 4
+ J2 8
+Net 23 "/MCLR" "MCLR"
+ R7 2
+ U2 1
+ J2 4
+Net 24 "VAUX" "VAUX"
+ D6 1
+ C9 1
+ C8 1
+ J2 1
+ D4 2
+ Q1 G
+Net 25 "/U2_SEL1" "U2_SEL1"
+ JP1 4
+ U2 12
+Net 26 "" ""
+ JP1 3
+ R10 2
+Net 27 "/U2_SEL0" "U2_SEL0"
+ U2 11
+ JP1 2
+Net 28 "" ""
+ R9 2
+ JP1 1
+Net 29 "/U1_COMP" "U1_COMP"
+ U1 8
+ R3 1
+Net 30 "/U1_OUT" "U1_OUT"
+ L1 2
+ C7 1
+ R5 1
+ D3 2
+ C6 1
+Net 31 "" ""
+ U1 1
+ C5 1
+Net 32 "/PWRGD" "PWRGD"
+ U1 6
+ J2 3
+Net 33 "/SDI/SDA" "SDI/SDA"
+ J2 5
+ U2 18
+Net 34 "" ""
+ R1 2
+ Q1 D
+Net 35 "" ""
+ R3 2
+ C3 1
+Net 36 "/U1_SS" "U1_SS"
+ U1 4
+ C4 1
+Net 37 "/SCK" "SCK"
+ U2 16
+ J2 7
+Net 38 "/U1_VSENSE" "U1_VSENSE"
+ R5 2
+ R6 1
+ U1 7
+Net 39 "/U1_EN" "U1_EN"
+ R2 1
+ Q1 S
+ U1 3
+ D1 1
 Net 40 "VCC" "VCC"
  C1 1
  J1 1
- C2 1
- R1 1
  U1 2
-Net 41 "/SS" "SS"
- J2 8
- U2 4
-Net 42 "/SDO/SCL" "SDO/SCL"
- J2 6
- U2 17
+ R1 1
+ C2 1
+Net 41 "/U1_PH" "U1_PH"
+ C5 2
+ D2 1
+ L1 1
+ U1 10
+Net 42 "/U1_RT" "U1_RT"
+ R4 1
+ U1 5
 }
 #End
