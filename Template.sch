@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/28/2012 10:36:37 PM
+EESchema Schematic File Version 2  date 6/28/2012 11:39:39 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ LIBS:opendous
 LIBS:vreg
 LIBS:sensors
 LIBS:pspice
-EELAYER 43  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
