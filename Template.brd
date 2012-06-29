@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date 6/29/2012 3:51:44 AM
+PCBNEW-BOARD Version 1 date 6/29/2012 3:59:24 AM
 
 # Created by Pcbnew(2012-01-19 BZR 3256)-stable
 
@@ -6,7 +6,7 @@ $GENERAL
 encoding utf-8
 LayerCount 2
 Ly 1FFF8001
-EnabledLayers 1FFF8001
+EnabledLayers 10FF8001
 Links 83
 NoConn 83
 Di 25974 19040 84460 57651
@@ -33,18 +33,25 @@ $EndSHEETDESCR
 $SETUP
 InternalUnit 0.000100 INCH
 Layers 2
-Layer[0] Back signal
-Layer[15] Front signal
-TrackWidth 80
+Layer[0] Back mixed
+Layer[15] Front mixed
+TrackWidth 100
+TrackWidthList 80
+TrackWidthList 100
+TrackWidthList 120
+TrackWidthList 240
 TrackClearence 100
 ZoneClearence 200
 TrackMinWidth 80
 DrawSegmWidth 150
 EdgeSegmWidth 150
-ViaSize 350
-ViaDrill 250
-ViaMinSize 350
-ViaMinDrill 200
+ViaSize 250
+ViaDrill 150
+ViaMinSize 150
+ViaMinDrill 100
+ViaSizeList 150 100
+ViaSizeList 250 150
+ViaSizeList 350 250
 MicroViaSize 200
 MicroViaDrill 50
 MicroViasAllowed 0
@@ -171,9 +178,9 @@ $NCLASS
 Name "Default"
 Desc "This is the default net class."
 Clearance 100
-TrackWidth 80
-ViaDia 350
-ViaDrill 250
+TrackWidth 100
+ViaDia 250
+ViaDrill 150
 uViaDia 200
 uViaDrill 50
 AddNet ""
