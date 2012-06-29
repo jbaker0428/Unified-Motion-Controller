@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/29/2012 2:44:12 AM
+EESchema Schematic File Version 2  date 6/29/2012 3:24:06 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,6 +46,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 1100 950 
+Connection ~ 1100 750 
 Text Label 3700 1750 0    50   ~ 0
 U1_RT
 Text Label 3400 1550 0    50   ~ 0
