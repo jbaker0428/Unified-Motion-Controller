@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/29/2012 4:03:51 AM
+EESchema Schematic File Version 2  date 6/29/2012 4:08:29 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -418,7 +418,7 @@ U 1 1 4FEAA7BB
 P 1100 850
 F 0 "D5" H 1100 910 30  0000 C CNN
 F 1 "TVS" H 1100 800 20  0001 C CNN
-F 2 "SMB" H 1100 850 60  0001 C CNN
+F 2 "SMB-BIDIR" H 1100 850 60  0001 C CNN
 F 4 "Bourns" H 1100 850 60  0001 C CNN "Manufacturer"
 F 5 "SMBJ36CA" H 1100 850 60  0001 C CNN "MPN"
 	1    1100 850 

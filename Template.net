@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  6/29/2012 4:03:55 AM
+# EESchema Netlist Version 1.1 created  6/29/2012 4:08:35 AM
 (
  ( /4FEBC2EF SM0603  FB1 FILTER {Lib=FILTER}
   (    1 VDD )
@@ -8,7 +8,7 @@
   (    1 VAUX )
   (    2 GND )
  )
- ( /4FEAA7BB SMB  D5 TVS {Lib=ESD_ZENER}
+ ( /4FEAA7BB SMB-BIDIR  D5 TVS {Lib=ESD_ZENER}
   (    1 VCC )
   (    2 GND )
  )
