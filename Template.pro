@@ -1,4 +1,4 @@
-update=6/28/2012 2:08:07 AM
+update=6/28/2012 10:10:55 PM
 last_client=pcbnew
 [eeschema]
 version=1
@@ -71,9 +71,9 @@ LibName36=sensors
 LibName37=pspice
 [pcbnew]
 version=1
-PadDrlX=0
-PadDimH=630
-PadDimV=118
+PadDrlX=433
+PadDimH=945
+PadDimV=945
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -84,7 +84,7 @@ VEgarde=100
 DrawLar=150
 EdgeLar=150
 TxtLar=120
-MSegLar=75
+MSegLar=38
 LastNetListRead=
 [pcbnew/libraries]
 LibDir=C:/Users/Joe/Dropbox/Kicad-Libraries/modules
@@ -105,3 +105,4 @@ LibName14=smd_capacitors
 LibName15=smd_resistors
 LibName16=smd_dil
 LibName17=ti
+LibName18=te_buchanan
