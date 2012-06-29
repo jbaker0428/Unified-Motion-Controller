@@ -1,4 +1,4 @@
-update=6/29/2012 12:23:54 AM
+update=6/29/2012 12:39:14 AM
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -90,7 +90,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=38
-LastNetListRead=
+LastNetListRead=Template.net
 [pcbnew/libraries]
 LibDir=C:/Users/Joe/Dropbox/Kicad-Libraries/modules
 LibName1=sockets
