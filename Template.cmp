@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le 6/29/2012 4:09:00 AM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 7/1/2012 11:55:12 PM
 
 BeginCmp
 TimeStamp = /4FEA7464;
@@ -180,6 +180,13 @@ TimeStamp = /4FE82F8E;
 Reference = L1;
 ValeurCmp = 47uH;
 IdModule  = VLCF4020;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF11B3E;
+Reference = P1;
+ValeurCmp = TST;
+IdModule  = SMD-10MIL;
 EndCmp
 
 BeginCmp
