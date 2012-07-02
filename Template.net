@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  6/29/2012 5:50:21 AM
+# EESchema Netlist Version 1.1 created  7/1/2012 11:47:11 PM
 (
  ( /4FEBC2EF SM0603  FB1 FILTER {Lib=FILTER}
   (    1 VDD )
@@ -110,7 +110,7 @@
   (    2 GND )
  )
  ( /4FE82EFA c_0402  C5 0.100uF {Lib=C}
-  (    1 N-000030 )
+  (    1 /U1_BOOT )
   (    2 /U1_PH )
  )
  ( /4FE82E34 SM0402  R4 97.6K {Lib=R}
@@ -142,7 +142,7 @@
   (    2 GND )
  )
  ( /4FE82802 S-PDSO-G10  U1 TPS54040 {Lib=TPS54040}
-  (    1 N-000030 )
+  (    1 /U1_BOOT )
   (    2 VCC )
   (    3 /U1_EN )
   (    4 /U1_SS )
@@ -370,136 +370,136 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 11 "GND" "GND"
+Net 12 "/PWRGD" "PWRGD"
+ J2 9
+ U1 6
+Net 13 "GND" "GND"
  R2 2
  C2 2
+ C3 2
+ J1 1
  C10 2
  C11 2
- J1 1
+ U1 11
  R9 1
  R10 1
  U1 9
- C3 2
  C4 2
  R4 2
  D2 2
  R6 2
  C6 2
- U1 11
  C1 2
- U2 8
- C8 2
- C9 2
- J2 8
- D5 2
  D6 2
+ C13 2
+ D5 2
+ U2 8
+ D1 2
+ C12 2
+ C9 2
+ C8 2
+ U2 19
+ C14 2
  C7 2
  C15 2
- C14 2
- C13 2
- C12 2
- U2 19
+ J2 8
  U2 27
- D1 2
-Net 12 "VDD" "VDD"
- C12 1
- C13 1
- J2 6
- U2 20
- U2 13
- FB1 1
- R7 1
- D4 1
- D3 1
- C15 1
- C11 1
- C14 1
- C10 1
-Net 13 "VCC" "VCC"
- C1 1
- D5 1
+Net 14 "VCC" "VCC"
  R1 1
  C2 1
  U1 2
+ C1 1
+ D5 1
  J1 2
-Net 14 "AVDD" "AVDD"
+Net 15 "AVDD" "AVDD"
  FB1 2
  U2 28
-Net 15 "/SDI/SDA" "SDI/SDA"
- J2 2
+Net 16 "/SDI/SDA" "SDI/SDA"
  U2 18
-Net 16 "/SDO/SCL" "SDO/SCL"
- J2 3
+ J2 2
+Net 17 "/SDO/SCL" "SDO/SCL"
  U2 17
-Net 20 "/SS" "SS"
- J2 5
+ J2 3
+Net 18 "/SCK" "SCK"
+ J2 4
+ U2 16
+Net 21 "/SS" "SS"
  U2 4
-Net 23 "/MCLR" "MCLR"
- J2 1
- R7 2
+ J2 5
+Net 24 "/MCLR" "MCLR"
  U2 1
-Net 24 "VAUX" "VAUX"
- C9 1
- C8 1
+ R7 2
+ J2 1
+Net 25 "VAUX" "VAUX"
  D6 1
+ C9 1
  D4 2
  J2 7
  Q1 G
-Net 25 "/U2_SEL1" "U2_SEL1"
- JP1 4
+ C8 1
+Net 26 "VDD" "VDD"
+ U2 13
+ U2 20
+ FB1 1
+ J2 6
+ C13 1
+ C12 1
+ C14 1
+ C15 1
+ R7 1
+ D4 1
+ C10 1
+ C11 1
+ D3 1
+Net 27 "/U2_SEL1" "U2_SEL1"
  U2 12
-Net 26 "/U2_SEL0" "U2_SEL0"
- JP1 2
+ JP1 4
+Net 28 "/U2_SEL0" "U2_SEL0"
  U2 11
-Net 27 "/S0PD" "S0PD"
- R9 2
+ JP1 2
+Net 29 "/S0PD" "S0PD"
  JP1 1
-Net 28 "/S1PD" "S1PD"
+ R9 2
+Net 30 "/S1PD" "S1PD"
  R10 2
  JP1 3
-Net 29 "/U1_OUT" "U1_OUT"
+Net 31 "/U1_OUT" "U1_OUT"
  C7 1
  R5 1
  C6 1
- L1 2
  D3 2
-Net 30 "" ""
- U1 1
- C5 1
-Net 31 "/U1_VSENSE" "U1_VSENSE"
- R5 2
+ L1 2
+Net 32 "/U1_VSENSE" "U1_VSENSE"
  U1 7
+ R5 2
  R6 1
-Net 32 "/PWRGD" "PWRGD"
- J2 9
- U1 6
-Net 33 "/U1_RT" "U1_RT"
- U1 5
- R4 1
-Net 34 "/SCK" "SCK"
- U2 16
- J2 4
-Net 35 "/Q1D" "Q1D"
+Net 33 "/Q1D" "Q1D"
  R1 2
  Q1 D
-Net 36 "/R3C3" "R3C3"
+Net 34 "/R3C3" "R3C3"
  R3 2
  C3 1
-Net 37 "/U1_SS" "U1_SS"
- C4 1
- U1 4
-Net 38 "/U1_PH" "U1_PH"
+Net 35 "/U1_RT" "U1_RT"
+ R4 1
+ U1 5
+Net 36 "/U1_PH" "U1_PH"
  C5 2
- L1 1
  D2 1
+ L1 1
  U1 10
-Net 39 "/U1_EN" "U1_EN"
+Net 37 "/U1_EN" "U1_EN"
+ R2 1
+ U1 3
  D1 1
  Q1 S
- U1 3
- R2 1
-Net 40 "/U1_COMP" "U1_COMP"
+Net 38 "/U1_COMP" "U1_COMP"
  U1 8
  R3 1
+Net 39 "/U1_SS" "U1_SS"
+ U1 4
+ C4 1
+Net 40 "/U1_BOOT" "U1_BOOT"
+ U1 1
+ C5 1
 }
 #End
