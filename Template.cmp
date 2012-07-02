@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 7/1/2012 11:55:12 PM
+Cmp-Mod V01 Genere par PcbNew le 7/2/2012 3:38:15 AM
 
 BeginCmp
 TimeStamp = /4FEA7464;
@@ -144,7 +144,7 @@ BeginCmp
 TimeStamp = /4FEAA7C0;
 Reference = D6;
 ValeurCmp = ESD_ZENER;
-IdModule  = SOD323-REFLOW;
+IdModule  = SOD323-REFLOW-CC;
 EndCmp
 
 BeginCmp
