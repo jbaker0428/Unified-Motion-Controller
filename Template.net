@@ -1,237 +1,233 @@
-# EESchema Netlist Version 1.1 created  7/2/2012 3:37:41 AM
+# EESchema Netlist Version 1.1 created  7/4/2012 11:00:14 AM
 (
- ( /4FEA7464 cap-master-E-020X060 C1 33uF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /4FF20A9C SOT23GDS  Q3 MOS_N {Lib=MOS_N}
+  (    D GNDIN )
+  (    G VAUX )
+  (    S GND )
  )
- ( /4FE82BC3 c_1206 C2 4.7uF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /4FF1842F SOD323F-REFLOW  D2 18.51V {Lib=D_ZENER}
+  (    1 /Q1G )
+  (    2 GND )
  )
- ( /4FE82CDE c_0402 C3 0.039uF
-  ( 1 /R3C3 )
-  ( 2 GND )
+ ( /4FF183E5 SM0805  R1 2K {Lib=R_MINI}
+  (    1 /Q1G )
+  (    2 VCC )
  )
- ( /4FE82D90 c_0402 C4 0.010uF
-  ( 1 /U1_SS )
-  ( 2 GND )
+ ( /4FF18394 WDFN8_3.3x3.3_0.65P-FET  Q1 MOS_N {Lib=MOS_N}
+  (    D GNDPWR )
+  (    G /Q1G )
+  (    S GND )
  )
- ( /4FE82EFA c_0402 C5 0.100uF
-  ( 1 /U1_BOOT )
-  ( 2 /U1_PH )
+ ( /4FF11B3E SMD-10MIL  P1 TST {Lib=TST}
+  (    1 GND )
  )
- ( /4FE830FA c_tant_B C6 47uF
-  ( 1 /U1_OUT )
-  ( 2 GND )
+ ( /4FEBC2EF SM0603  FB1 FILTER {Lib=FILTER}
+  (    1 VDD )
+  (    2 AVDD )
  )
- ( /4FEA67F4 c_0402 C7 0.1uF
-  ( 1 /U1_OUT )
-  ( 2 GND )
+ ( /4FEAA7C0 SOD323-REFLOW-CA  D6 ESD_ZENER {Lib=ESD_ZENER_CA}
+  (    1 VAUX )
+  (    2 GNDIN )
  )
- ( /4FEA76A5 cap-master-E-020X060 C8 33uF
-  ( 1 VAUX )
-  ( 2 GND )
+ ( /4FEAA7BB SMB-BIDIR  D1 TVS {Lib=ESD_ZENER}
+  (    1 VCC )
+  (    2 GNDPWR )
  )
- ( /4FEA7BB8 c_0402 C9 0.1uF
-  ( 1 VAUX )
-  ( 2 GND )
+ ( /4FEA7BB8 c_0402  C9 0.1uF {Lib=C}
+  (    1 VAUX )
+  (    2 GND )
  )
- ( /4FE2F6A1 c_0402 C10 0.1uF
-  ( 1 VDD )
-  ( 2 GND )
+ ( /4FEA76A5 cap-master-E-020X060  C8 33uF {Lib=CP1}
+  (    1 VAUX )
+  (    2 GND )
  )
- ( /4FE3E859 c_0402 C11 0.01uF
-  ( 1 VDD )
-  ( 2 GND )
+ ( /4FEA7464 cap-master-E-020X060  C1 33uF {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /4FEA3E41 c_0402 C12 0.1uF
-  ( 1 VDD )
-  ( 2 GND )
+ ( /4FEA67F4 c_0402  C7 0.1uF {Lib=C}
+  (    1 /U1_OUT )
+  (    2 GND )
  )
- ( /4FEA3E40 c_0402 C13 0.01uF
-  ( 1 VDD )
-  ( 2 GND )
+ ( /4FEA47AD c_0402  C15 0.01uF {Lib=C}
+  (    1 VDD )
+  (    2 GND )
  )
- ( /4FEA47AC c_0402 C14 0.1uF
-  ( 1 VDD )
-  ( 2 GND )
+ ( /4FEA47AC c_0402  C14 0.1uF {Lib=C}
+  (    1 VDD )
+  (    2 GND )
  )
- ( /4FEA47AD c_0402 C15 0.01uF
-  ( 1 VDD )
-  ( 2 GND )
+ ( /4FEA3E41 c_0402  C12 0.1uF {Lib=C}
+  (    1 VDD )
+  (    2 GND )
  )
- ( /4FE9B439 SOD123 D1 ZENER-2.4V
-  ( 1 /U1_EN )
-  ( 2 GND )
+ ( /4FEA3E40 c_0402  C13 0.01uF {Lib=C}
+  (    1 VDD )
+  (    2 GND )
  )
- ( /4FE82F2F SOD323F-REFLOW D2 DIODESCH
-  ( 1 /U1_PH )
-  ( 2 GND )
+ ( /4FEA3DE8 SOIC28W  U2 DSPIC30F2010-SO {Lib=DSPIC30F2010-SO}
+  (    1 /MCLR )
+  (    2 ? )
+  (    3 ? )
+  (    4 /SS )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 GND )
+  (    9 ? )
+  (   10 ? )
+  (   11 /U2_SEL0 )
+  (   12 /U2_SEL1 )
+  (   13 VDD )
+  (   14 ? )
+  (   15 ? )
+  (   16 /SCK )
+  (   17 /SDO/SCL )
+  (   18 /SDI/SDA )
+  (   19 GND )
+  (   20 VDD )
+  (   21 ? )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 GND )
+  (   28 AVDD )
  )
- ( /4FE46049 SOD323F-REFLOW D3 DIODESCH
-  ( 1 VDD )
-  ( 2 /U1_OUT )
+ ( /4FE9BF3F SIL-9  J2 CONN_9 {Lib=CONN_9}
+  (    1 /MCLR )
+  (    2 /SDI/SDA )
+  (    3 /SDO/SCL )
+  (    4 /SCK )
+  (    5 /SS )
+  (    6 VDD )
+  (    7 VAUX )
+  (    8 GNDIN )
+  (    9 /PWRGD )
  )
- ( /4FE45F9A SOD323F-REFLOW D4 DIODESCH
-  ( 1 VDD )
-  ( 2 VAUX )
+ ( /4FE9B439 SOD123  D3 Vz=2.4V {Lib=D_ZENER}
+  (    1 /U1_EN )
+  (    2 GND )
  )
- ( /4FEAA7BB SMB-BIDIR D5 TVS
-  ( 1 VCC )
-  ( 2 GND )
+ ( /4FE830FA c_tant_B  C6 47uF {Lib=CP1}
+  (    1 /U1_OUT )
+  (    2 GND )
  )
- ( /4FEAA7C0 SOD323-REFLOW-CC D6 ESD_ZENER
-  ( 1 VAUX )
-  ( 2 GND )
+ ( /4FE83029 SM0402  R7 10K {Lib=R}
+  (    1 /U1_VSENSE )
+  (    2 GND )
  )
- ( /4FEBC2EF SM0603 FB1 FILTER
-  ( 1 VDD )
-  ( 2 AVDD )
+ ( /4FE8301B SM0402  R6 53.6K {Lib=R}
+  (    1 /U1_OUT )
+  (    2 /U1_VSENSE )
  )
- ( /4FE465F5 1776275-2 J1 CONN_2
-  ( 1 GND )
-  ( 2 VCC )
+ ( /4FE82F8E VLCF4020  L1 47uH {Lib=INDUCTOR}
+  (    1 /U1_PH )
+  (    2 /U1_OUT )
  )
- ( /4FE9BF3F SIL-9 J2 CONN_9
-  ( 1 /MCLR )
-  ( 2 /SDI/SDA )
-  ( 3 /SDO/SCL )
-  ( 4 /SCK )
-  ( 5 /SS )
-  ( 6 VDD )
-  ( 7 GND )
-  ( 8 VAUX )
-  ( 9 /PWRGD )
+ ( /4FE82F2F SOD323F-REFLOW  D4 DIODESCH {Lib=D_SCHOTTKY}
+  (    1 /U1_PH )
+  (    2 GND )
  )
- ( /4FE3F70A PIN_ARRAY_2X2 JP1 CONN_2X2
-  ( 1 /S0PD )
-  ( 2 /U2_SEL0 )
-  ( 3 /S1PD )
-  ( 4 /U2_SEL1 )
+ ( /4FE82EFA c_0402  C5 0.100uF {Lib=C}
+  (    1 /U1_BOOT )
+  (    2 /U1_PH )
  )
- ( /4FE82F8E VLCF4020 L1 47uH
-  ( 1 /U1_PH )
-  ( 2 /U1_OUT )
+ ( /4FE82E34 SM0402  R5 97.6K {Lib=R}
+  (    1 /U1_RT )
+  (    2 GND )
  )
- ( /4FF11B3E SMD-10MIL P1 TST
-  ( 1 GND )
+ ( /4FE82D90 c_0402  C4 0.010uF {Lib=C}
+  (    1 /U1_SS )
+  (    2 GND )
  )
- ( /4FE45CBC SOT23GDS Q1 MOS_P
-  ( D /Q1D )
-  ( G VAUX )
-  ( S /U1_EN )
+ ( /4FE82CDE c_0402  C3 0.039uF {Lib=C}
+  (    1 /R4C3 )
+  (    2 GND )
  )
- ( /4FE82C15 SM0402 R1 105K
-  ( 1 VCC )
-  ( 2 /Q1D )
+ ( /4FE82CB2 SM0402  R4 8.06K {Lib=R}
+  (    1 /U1_COMP )
+  (    2 /R4C3 )
  )
- ( /4FE82C6A SM0402 R2 35.7K
-  ( 1 /U1_EN )
-  ( 2 GND )
+ ( /4FE82C6A SM0402  R3 35.7K {Lib=R}
+  (    1 /U1_EN )
+  (    2 GND )
  )
- ( /4FE82CB2 SM0402 R3 8.06K
-  ( 1 /U1_COMP )
-  ( 2 /R3C3 )
+ ( /4FE82C15 SM0402  R2 105K {Lib=R}
+  (    1 VCC )
+  (    2 /Q2D )
  )
- ( /4FE82E34 SM0402 R4 97.6K
-  ( 1 /U1_RT )
-  ( 2 GND )
+ ( /4FE82BC3 c_1206  C2 4.7uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /4FE8301B SM0402 R5 53.6K
-  ( 1 /U1_OUT )
-  ( 2 /U1_VSENSE )
+ ( /4FE82802 S-PDSO-G10  U1 TPS54040 {Lib=TPS54040}
+  (    1 /U1_BOOT )
+  (    2 VCC )
+  (    3 /U1_EN )
+  (    4 /U1_SS )
+  (    5 /U1_RT )
+  (    6 /PWRGD )
+  (    7 /U1_VSENSE )
+  (    8 /U1_COMP )
+  (    9 GND )
+  (   10 /U1_PH )
+  (   11 GND )
  )
- ( /4FE83029 SM0402 R6 10K
-  ( 1 /U1_VSENSE )
-  ( 2 GND )
+ ( /4FE465F5 1776275-2  J1 CONN_2 {Lib=CONN_2}
+  (    1 GNDPWR )
+  (    2 VCC )
  )
- ( /4FE3DD64 SM0603 R7 470
-  ( 1 VDD )
-  ( 2 /MCLR )
+ ( /4FE46049 SOD323F-REFLOW  D5 DIODESCH {Lib=D_SCHOTTKY}
+  (    1 VDD )
+  (    2 /U1_OUT )
  )
- ( /4FE3F779 SM0402 R9 1K
-  ( 1 GND )
-  ( 2 /S0PD )
+ ( /4FE45F9A SOD323F-REFLOW  D7 DIODESCH {Lib=D_SCHOTTKY}
+  (    1 VDD )
+  (    2 VAUX )
  )
- ( /4FE3F7AE SM0402 R10 1K
-  ( 1 GND )
-  ( 2 /S1PD )
+ ( /4FE45CBC SOT23GDS  Q2 MOS_P {Lib=MOS_P}
+  (    D /Q2D )
+  (    G VAUX )
+  (    S /U1_EN )
  )
- ( /4FE82802 S-PDSO-G10 U1 TPS54040
-  ( 1 /U1_BOOT )
-  ( 2 VCC )
-  ( 3 /U1_EN )
-  ( 4 /U1_SS )
-  ( 5 /U1_RT )
-  ( 6 /PWRGD )
-  ( 7 /U1_VSENSE )
-  ( 8 /U1_COMP )
-  ( 9 GND )
-  ( 10 /U1_PH )
-  ( 11 GND )
+ ( /4FE3F7AE SM0402  R10 1K {Lib=R}
+  (    1 GND )
+  (    2 /S1PD )
  )
- ( /4FEA3DE8 SOIC28W U2 DSPIC30F2010-SO
-  ( 1 /MCLR )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 /SS )
-  ( 5 ? )
-  ( 6 ? )
-  ( 7 ? )
-  ( 8 GND )
-  ( 9 ? )
-  ( 10 ? )
-  ( 11 /U2_SEL0 )
-  ( 12 /U2_SEL1 )
-  ( 13 VDD )
-  ( 14 ? )
-  ( 15 ? )
-  ( 16 /SCK )
-  ( 17 /SDO/SCL )
-  ( 18 /SDI/SDA )
-  ( 19 GND )
-  ( 20 VDD )
-  ( 21 ? )
-  ( 22 ? )
-  ( 23 ? )
-  ( 24 ? )
-  ( 25 ? )
-  ( 26 ? )
-  ( 27 GND )
-  ( 28 AVDD )
+ ( /4FE3F779 SM0402  R9 1K {Lib=R}
+  (    1 GND )
+  (    2 /S0PD )
+ )
+ ( /4FE3F70A PIN_ARRAY_2X2  JP1 CONN_2X2 {Lib=CONN_2X2}
+  (    1 /S0PD )
+  (    2 /U2_SEL0 )
+  (    3 /S1PD )
+  (    4 /U2_SEL1 )
+ )
+ ( /4FE3E859 c_0402  C11 0.01uF {Lib=C}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4FE3DD64 SM0603  R8 470 {Lib=R}
+  (    1 VDD )
+  (    2 /MCLR )
+ )
+ ( /4FE2F6A1 c_0402  C10 0.1uF {Lib=C}
+  (    1 VDD )
+  (    2 GND )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- CP*
+$component D2
+ D?
+ SO*
  SM*
+ SLP1006P2
 $endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C6
- CP*
- SM*
-$endlist
-$component C7
+$component C9
  SM*
  C?
  C1-1
@@ -240,17 +236,21 @@ $component C8
  CP*
  SM*
 $endlist
-$component C9
+$component C1
+ CP*
+ SM*
+$endlist
+$component C7
  SM*
  C?
  C1-1
 $endlist
-$component C10
+$component C15
  SM*
  C?
  C1-1
 $endlist
-$component C11
+$component C14
  SM*
  C?
  C1-1
@@ -265,27 +265,9 @@ $component C13
  C?
  C1-1
 $endlist
-$component C14
- SM*
- C?
- C1-1
-$endlist
-$component C15
- SM*
- C?
- C1-1
-$endlist
-$component D1
- D?
- SO*
- SM*
- SLP1006P2
-$endlist
-$component D2
- D?
- SO*
- SM*
- SLP1006P2
+$component U2
+ *DIP28
+ SOIC28
 $endlist
 $component D3
  D?
@@ -293,41 +275,11 @@ $component D3
  SM*
  SLP1006P2
 $endlist
-$component D4
- D?
- SO*
+$component C6
+ CP*
  SM*
- SLP1006P2
 $endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
+$component R7
  R?
  SM0603
  SM0805
@@ -341,7 +293,77 @@ $component R6
  R?-*
  SM1206
 $endlist
-$component R7
+$component D4
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component U1
+ MSOP8
+ S-PDSO-G10
+$endlist
+$component D5
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component D7
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component R10
  R?
  SM0603
  SM0805
@@ -355,20 +377,170 @@ $component R9
  R?-*
  SM1206
 $endlist
-$component R10
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component R8
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component U1
- MSOP8
- S-PDSO-G10
-$endlist
-$component U2
- *DIP28
- SOIC28
+$component C10
+ SM*
+ C?
+ C1-1
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 9 "VDD" "VDD"
+ U2 13
+ D5 1
+ D7 1
+ R8 1
+ C15 1
+ C14 1
+ C12 1
+ C13 1
+ C10 1
+ U2 20
+ J2 6
+ FB1 1
+ C11 1
+Net 17 "/SCK" "SCK"
+ J2 4
+ U2 16
+Net 18 "/SDO/SCL" "SDO/SCL"
+ J2 3
+ U2 17
+Net 19 "/SDI/SDA" "SDI/SDA"
+ U2 18
+ J2 2
+Net 20 "/SS" "SS"
+ U2 4
+ J2 5
+Net 21 "/U1_VSENSE" "U1_VSENSE"
+ R7 1
+ U1 7
+ R6 2
+Net 22 "GND" "GND"
+ R3 2
+ C3 2
+ C4 2
+ R5 2
+ D4 2
+ C2 2
+ D2 2
+ Q3 S
+ C6 2
+ R7 2
+ C14 2
+ C15 2
+ C7 2
+ R10 1
+ R9 1
+ C11 2
+ C10 2
+ U1 9
+ U1 11
+ U2 19
+ C1 2
+ U2 27
+ C9 2
+ C8 2
+ P1 1
+ Q1 S
+ C13 2
+ U2 8
+ C12 2
+ D3 2
+Net 23 "AVDD" "AVDD"
+ U2 28
+ FB1 2
+Net 24 "/MCLR" "MCLR"
+ U2 1
+ R8 2
+ J2 1
+Net 25 "/S1PD" "S1PD"
+ JP1 3
+ R10 2
+Net 26 "/S0PD" "S0PD"
+ JP1 1
+ R9 2
+Net 27 "/U2_SEL0" "U2_SEL0"
+ JP1 2
+ U2 11
+Net 28 "/U2_SEL1" "U2_SEL1"
+ U2 12
+ JP1 4
+Net 29 "/U1_OUT" "U1_OUT"
+ D5 2
+ L1 2
+ C7 1
+ R6 1
+ C6 1
+Net 30 "/U1_PH" "U1_PH"
+ D4 1
+ U1 10
+ C5 2
+ L1 1
+Net 31 "/PWRGD" "PWRGD"
+ J2 9
+ U1 6
+Net 32 "VCC" "VCC"
+ R2 1
+ C2 1
+ D1 1
+ C1 1
+ U1 2
+ R1 2
+ J1 2
+Net 33 "/Q2D" "Q2D"
+ Q2 D
+ R2 2
+Net 34 "/U1_COMP" "U1_COMP"
+ U1 8
+ R4 1
+Net 35 "/R4C3" "R4C3"
+ R4 2
+ C3 1
+Net 36 "/U1_SS" "U1_SS"
+ U1 4
+ C4 1
+Net 37 "/U1_RT" "U1_RT"
+ R5 1
+ U1 5
+Net 38 "/U1_BOOT" "U1_BOOT"
+ C5 1
+ U1 1
+Net 39 "GNDIN" "GNDIN"
+ D6 2
+ Q3 D
+ J2 8
+Net 40 "VAUX" "VAUX"
+ Q2 G
+ J2 7
+ D7 2
+ D6 1
+ C9 1
+ C8 1
+ Q3 G
+Net 41 "GNDPWR" "GNDPWR"
+ J1 1
+ D1 2
+ Q1 D
+Net 42 "/U1_EN" "U1_EN"
+ D3 1
+ U1 3
+ R3 1
+ Q2 S
+Net 43 "/Q1G" "Q1G"
+ R1 1
+ D2 1
+ Q1 G
+}
+#End

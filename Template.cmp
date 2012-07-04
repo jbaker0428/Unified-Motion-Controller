@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le 7/2/2012 3:38:15 AM
+Cmp-Mod V01 Genere par PcbNew le 7/4/2012 10:36:11 AM
 
 BeginCmp
 TimeStamp = /4FEA7464;
@@ -106,45 +106,52 @@ IdModule  = c_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FE9B439;
+TimeStamp = /4FEAA7BB;
 Reference = D1;
-ValeurCmp = ZENER-2.4V;
+ValeurCmp = TVS;
+IdModule  = SMB-BIDIR;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF1842F;
+Reference = D2;
+ValeurCmp = 18.51V;
+IdModule  = SOD323F-REFLOW;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE9B439;
+Reference = D3;
+ValeurCmp = Vz=2.4V;
 IdModule  = SOD123;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE82F2F;
-Reference = D2;
-ValeurCmp = DIODESCH;
-IdModule  = SOD323F-REFLOW;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FE46049;
-Reference = D3;
-ValeurCmp = DIODESCH;
-IdModule  = SOD323F-REFLOW;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FE45F9A;
 Reference = D4;
 ValeurCmp = DIODESCH;
 IdModule  = SOD323F-REFLOW;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FEAA7BB;
+TimeStamp = /4FE46049;
 Reference = D5;
-ValeurCmp = TVS;
-IdModule  = SMB-BIDIR;
+ValeurCmp = DIODESCH;
+IdModule  = SOD323F-REFLOW;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FEAA7C0;
 Reference = D6;
 ValeurCmp = ESD_ZENER;
-IdModule  = SOD323-REFLOW-CC;
+IdModule  = SOD323-REFLOW-CA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE45F9A;
+Reference = D7;
+ValeurCmp = DIODESCH;
+IdModule  = SOD323F-REFLOW;
 EndCmp
 
 BeginCmp
@@ -190,57 +197,78 @@ IdModule  = SMD-10MIL;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FE45CBC;
+TimeStamp = /4FF18394;
 Reference = Q1;
+ValeurCmp = MOS_N;
+IdModule  = WDFN8_3.3x3.3_0.65P-FET;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE45CBC;
+Reference = Q2;
 ValeurCmp = MOS_P;
 IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FE82C15;
+TimeStamp = /4FF20A9C;
+Reference = Q3;
+ValeurCmp = MOS_N;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF183E5;
 Reference = R1;
+ValeurCmp = 2K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE82C15;
+Reference = R2;
 ValeurCmp = 105K;
 IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE82C6A;
-Reference = R2;
+Reference = R3;
 ValeurCmp = 35.7K;
 IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE82CB2;
-Reference = R3;
+Reference = R4;
 ValeurCmp = 8.06K;
 IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE82E34;
-Reference = R4;
+Reference = R5;
 ValeurCmp = 97.6K;
 IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE8301B;
-Reference = R5;
+Reference = R6;
 ValeurCmp = 53.6K;
 IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE83029;
-Reference = R6;
+Reference = R7;
 ValeurCmp = 10K;
 IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE3DD64;
-Reference = R7;
+Reference = R8;
 ValeurCmp = 470;
 IdModule  = SM0603;
 EndCmp
