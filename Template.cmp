@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le 7/4/2012 10:36:11 AM
+Cmp-Mod V01 Genere par PcbNew le 7/5/2012 7:05:28 AM
 
 BeginCmp
 TimeStamp = /4FEA7464;
@@ -169,10 +169,17 @@ IdModule  = 1776275-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FE9BF3F;
+TimeStamp = /4FF529F5;
 Reference = J2;
-ValeurCmp = CONN_9;
-IdModule  = SIL-9;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE9BF3F;
+Reference = J3;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
 EndCmp
 
 BeginCmp
