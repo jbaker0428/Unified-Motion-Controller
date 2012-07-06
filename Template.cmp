@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le 7/5/2012 7:05:28 AM
+Cmp-Mod V01 Genere par PcbNew le 7/5/2012 2:05:31 PM
 
 BeginCmp
 TimeStamp = /4FEA7464;
@@ -180,6 +180,27 @@ TimeStamp = /4FE9BF3F;
 Reference = J3;
 ValeurCmp = CONN_8;
 IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF5D552;
+Reference = J4;
+ValeurCmp = CONN_4X2;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF5BF06;
+Reference = J5;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF5BF0C;
+Reference = J6;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
