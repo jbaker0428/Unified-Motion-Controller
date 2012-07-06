@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le 7/5/2012 2:05:31 PM
+Cmp-Mod V01 Genere par PcbNew le 7/6/2012 12:50:00 AM
 
 BeginCmp
 TimeStamp = /4FEA7464;
@@ -101,6 +101,20 @@ EndCmp
 BeginCmp
 TimeStamp = /4FEA47AD;
 Reference = C15;
+ValeurCmp = 0.01uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF636E6;
+Reference = C16;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF636E5;
+Reference = C17;
 ValeurCmp = 0.01uF;
 IdModule  = c_0402;
 EndCmp
@@ -325,8 +339,8 @@ EndCmp
 BeginCmp
 TimeStamp = /4FEA3DE8;
 Reference = U2;
-ValeurCmp = DSPIC30F2010-SO;
-IdModule  = SOIC28W;
+ValeurCmp = DSPIC30F3011-PT;
+IdModule  = TQFP44;
 EndCmp
 
 EndListe
