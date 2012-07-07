@@ -1,4 +1,4 @@
-update=7/5/2012 5:52:37 PM
+update=7/7/2012 3:08:50 AM
 last_client=eeschema
 [cvpcb]
 version=1
@@ -110,3 +110,4 @@ LibName32=opendous
 LibName33=vreg
 LibName34=rcl
 LibName35=diode
+LibName36=pic18
