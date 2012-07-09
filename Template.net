@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  7/7/2012 11:03:25 PM
+# EESchema Netlist Version 1.1 created  7/8/2012 9:38:05 PM
 (
  ( /4FF7E68A/4FF80F49 SM0402  R20 1K {Lib=R}
   (    1 VDD )
@@ -76,7 +76,7 @@
   (    2 /Controller/S1PD )
  )
  ( /4FF7E232/4FF7E2B3 SIL-8  J3 CONN_8 {Lib=CONN_8}
-  (    1 ? )
+  (    1 /Controller/~MCLR~ )
   (    2 /Controller/SDI/SDA )
   (    3 /Controller/SDO/SCL )
   (    4 /Controller/SCK )
@@ -851,51 +851,52 @@ Net 33 "/Power Input Stage/Q7B" "Q7B"
  R15 2
  R14 2
 Net 34 "/Controller/S0PD" "S0PD"
- R23 2
  JP1 1
+ R23 2
 Net 35 "/Controller/SS" "SS"
  J3 5
  U2 21
-Net 38 "/Controller/S1PD" "S1PD"
- JP1 3
- R24 2
-Net 40 "/Controller/~MCLR~" "~MCLR~"
+Net 36 "/Controller/~MCLR~" "~MCLR~"
  R22 2
  U2 18
-Net 54 "/Controller/SDI/SDA" "SDI/SDA"
+ J3 1
+Net 38 "/Controller/S1PD" "S1PD"
+ R24 2
+ JP1 3
+Net 53 "/Controller/SDI/SDA" "SDI/SDA"
  J3 2
  U2 1
-Net 55 "/Controller/QEB" "QEB"
+Net 54 "/Controller/QEB" "QEB"
  J4 6
  J4 5
  U2 24
-Net 56 "/Controller/QEA" "QEA"
+Net 55 "/Controller/QEA" "QEA"
  U2 23
  J4 4
  J4 3
-Net 66 "/Controller/SDO/SCL" "SDO/SCL"
+Net 65 "/Controller/SDO/SCL" "SDO/SCL"
  U2 44
  J3 3
-Net 69 "/Controller/SCK" "SCK"
+Net 68 "/Controller/SCK" "SCK"
  J3 4
  U2 43
-Net 72 "/Controller/IND" "IND"
+Net 71 "/Controller/IND" "IND"
  U2 22
  J4 2
  J4 1
-Net 73 "/USB/CIN1-" "CIN1-"
+Net 72 "/USB/CIN1-" "CIN1-"
  R21 1
  U3 15
-Net 74 "/USB/~MCLR~" "~MCLR~"
+Net 73 "/USB/~MCLR~" "~MCLR~"
  U3 4
  R20 2
-Net 75 "VDD_CORE" "VDD_CORE"
+Net 74 "VDD_CORE" "VDD_CORE"
  C20 1
  U3 17
-Net 87 "/USB/USB_DM" "USB_DM"
+Net 86 "/USB/USB_DM" "USB_DM"
  J7 2
  U3 18
-Net 88 "/USB/USB_DP" "USB_DP"
+Net 87 "/USB/USB_DP" "USB_DP"
  J7 3
  U3 19
 }
