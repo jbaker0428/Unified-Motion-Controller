@@ -1,5 +1,5 @@
-update=9/8/2012 3:24:05 PM
-last_client=cvpcb
+update=10/24/2012 1:13:09 AM
+last_client=eeschema
 [pcbnew]
 version=1
 PadDrlX=0
@@ -40,9 +40,14 @@ LibName19=sot
 LibName20=sockets
 LibName21=ti
 LibDir=C:/Users/jbaker/Dropbox/Kicad-Libraries/modules
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
-LibDir=C:/Users/jbaker/Dropbox/Kicad-Libraries;C:/Users/jbaker/Dropbox/Kicad-Libraries/library
+LibDir=C:/Users/jbaker/Dropbox/Kicad-Libraries/library
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -108,8 +113,5 @@ LibName33=vreg
 LibName34=rcl
 LibName35=pic18
 LibName36=passives
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName37=ftdi
+LibName38=stm32
