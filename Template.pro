@@ -1,4 +1,4 @@
-update=10/24/2012 1:13:09 AM
+update=10/28/2012 2:30:21 AM
 last_client=eeschema
 [pcbnew]
 version=1
@@ -47,7 +47,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=C:/Users/jbaker/Dropbox/Kicad-Libraries/library
+LibDir=C:/Users/Joe/Dropbox/Kicad-Libraries/library
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15

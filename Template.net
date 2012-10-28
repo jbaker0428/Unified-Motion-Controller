@@ -1,200 +1,5 @@
-# EESchema Netlist Version 1.1 created  10/25/2012 8:08:55 AM
+# EESchema Netlist Version 1.1 created  10/28/2012 2:32:11 AM
 (
- ( /4FF7E68A/50891D05 $noname  LED2 LED {Lib=LED}
-  (    1 N-000093 )
-  (    2 /USB/RXLED )
- )
- ( /4FF7E68A/50891D04 $noname  R3 R-US {Lib=R-US}
-  (    1 N-000093 )
-  (    2 VDD33 )
- )
- ( /4FF7E68A/50891B9D $noname  R2 R-US {Lib=R-US}
-  (    1 N-000094 )
-  (    2 VDD33 )
- )
- ( /4FF7E68A/50891B4A $noname  LED1 LED {Lib=LED}
-  (    1 N-000094 )
-  (    2 /USB/TXLED )
- )
- ( /4FF7E68A/50891A68 $noname  FB2 FILTER {Lib=FILTER}
-  (    1 VBUS )
-  (    2 N-000098 )
- )
- ( /4FF7E68A/507E84BB c_0805  C5 4.7uF {Lib=C}
-  (    1 VDD5 )
-  (    2 GND )
- )
- ( /4FF7E68A/507E84B2 c_0402  C9 0.1uF {Lib=C}
-  (    1 VDD5 )
-  (    2 GND )
- )
- ( /4FF7E68A/507E800F $noname  U1 FT232RL {Lib=FT232RL}
-  (    1 /Controller/USB_RX )
-  (    2 ? )
-  (    3 /USB/USB_~CTS~ )
-  (    4 VDD33 )
-  (    5 /USB/USB_TX )
-  (    6 ? )
-  (    7 GND )
-  (    9 ? )
-  (   10 ? )
-  (   11 /Controller/USB_~RTS~ )
-  (   12 ? )
-  (   13 ? )
-  (   14 ? )
-  (   15 /USB/USB_DP )
-  (   16 /USB/USB_DM )
-  (   17 VDD33 )
-  (   18 GND )
-  (   19 ? )
-  (   20 VDD5 )
-  (   21 GND )
-  (   22 /USB/RXLED )
-  (   23 /USB/TXLED )
-  (   25 GND )
-  (   26 GND )
-  (   27 ? )
-  (   28 ? )
- )
- ( /4FF7E68A/4FF7E886 c_0402  C8 0.1uF {Lib=C}
-  (    1 VDD33 )
-  (    2 GND )
- )
- ( /4FF7E68A/4FF7E83F CONN_USB2_MiniB_SMT  J5 USBCONN {Lib=USBCONN}
-  (    1 N-000098 )
-  (    2 /USB/USB_DM )
-  (    3 /USB/USB_DP )
-  (    4 GND )
-  (    5 GND )
- )
- ( /4FF7E232/5088F8EA SM0603  R1 510 {Lib=R-US}
-  (    1 GND )
-  (    2 /Controller/BOOT0 )
- )
- ( /4FF7E232/507E8399 c_0805  C10 4.7uF {Lib=C}
-  (    1 VDD33 )
-  (    2 GND )
- )
- ( /4FF7E232/507E79F3 LQFP64  U2 STM32F051RX {Lib=STM32F051RX}
-  (    1 ? )
-  (    2 ? )
-  (    3 ? )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 ? )
-  (    8 ? )
-  (    9 ? )
-  (   10 ? )
-  (   11 ? )
-  (   12 GND )
-  (   13 VDDA33 )
-  (   14 /USB/USB_~CTS~ )
-  (   15 /Controller/USB_~RTS~ )
-  (   16 /USB/USB_TX )
-  (   17 /Controller/USB_RX )
-  (   18 ? )
-  (   19 ? )
-  (   20 ? )
-  (   21 ? )
-  (   22 ? )
-  (   23 ? )
-  (   24 ? )
-  (   25 ? )
-  (   26 ? )
-  (   27 ? )
-  (   28 ? )
-  (   29 ? )
-  (   30 ? )
-  (   31 GND )
-  (   32 VDD33 )
-  (   33 ? )
-  (   34 ? )
-  (   35 ? )
-  (   36 ? )
-  (   37 /Controller/QE2A )
-  (   38 /Controller/QE2B )
-  (   39 ? )
-  (   40 ? )
-  (   41 ? )
-  (   42 ? )
-  (   43 ? )
-  (   44 ? )
-  (   45 ? )
-  (   46 ? )
-  (   47 ? )
-  (   48 ? )
-  (   49 ? )
-  (   50 /Controller/QE1A )
-  (   51 ? )
-  (   52 ? )
-  (   53 ? )
-  (   54 ? )
-  (   55 /Controller/QE1B )
-  (   56 ? )
-  (   57 ? )
-  (   58 ? )
-  (   59 ? )
-  (   60 /Controller/BOOT0 )
-  (   61 ? )
-  (   62 ? )
-  (   63 GND )
-  (   64 VDD33 )
- )
- ( /4FF7E232/4FF7E2B3 SIL-8  J1 CONN_8 {Lib=CONN_8}
-  (    1 ? )
-  (    2 ? )
-  (    3 ? )
-  (    4 ? )
-  (    5 ? )
-  (    6 VDD5 )
-  (    7 GND )
-  (    8 /Power_Input_Stage/PWRGD )
- )
- ( /4FF7E232/4FF7E2B1 c_0402  C2 10nF {Lib=C}
-  (    1 VDD33 )
-  (    2 GND )
- )
- ( /4FF7E232/4FF7E2B0 c_0402  C1 0.1uF {Lib=C}
-  (    1 VDD33 )
-  (    2 GND )
- )
- ( /4FF7E232/4FF7E2AF c_0402  C3 0.1uF {Lib=C}
-  (    1 VDD33 )
-  (    2 GND )
- )
- ( /4FF7E232/4FF7E2AE c_0402  C4 10nF {Lib=C}
-  (    1 VDD33 )
-  (    2 GND )
- )
- ( /4FF7E232/4FF7E2A9 SIL-3  J2 CONN_3 {Lib=CONN_3}
-  (    1 VDD5 )
-  (    2 VDD5 )
-  (    3 VDD5 )
- )
- ( /4FF7E232/4FF7E2A8 SIL-3  J4 CONN_3 {Lib=CONN_3}
-  (    1 GND )
-  (    2 GND )
-  (    3 GND )
- )
- ( /4FF7E232/4FF7E2A5 pin_array_4x2  J3 CONN_4X2 {Lib=CONN_4X2}
-  (    1 ? )
-  (    2 ? )
-  (    3 /Controller/QE1A )
-  (    4 /Controller/QE2A )
-  (    5 /Controller/QE1B )
-  (    6 /Controller/QE2B )
-  (    7 VDD5 )
-  (    8 GND )
- )
- ( /4FF7E232/4FF7E2A3 c_0402  C7 10nF {Lib=C}
-  (    1 VDD33 )
-  (    2 GND )
- )
- ( /4FF7E232/4FF7E2A2 c_0402  C6 1uF {Lib=C}
-  (    1 VDD33 )
-  (    2 GND )
- )
  ( /4FF7DEBF/5089270B c_0402  C19 1uF {Lib=C}
   (    1 VDD33 )
   (    2 GND )
@@ -219,9 +24,9 @@
   (    2 /Power_Input_Stage/Q5B )
  )
  ( /4FF7DEBF/504B9A35 SOT23_TO263AB_BEC  Q5 NPN {Lib=NPN}
-  (    1 GND )
-  (    2 /Power_Input_Stage/Q5B )
-  (    3 /Power_Input_Stage/Q3G )
+  (    B /Power_Input_Stage/Q5B )
+  (    C /Power_Input_Stage/Q3G )
+  (    E GND )
  )
  ( /4FF7DEBF/504B9A33 SM0402  R11 150K {Lib=R-US}
   (    1 GND )
@@ -272,9 +77,9 @@
   (    2 /Power_Input_Stage/Q4B )
  )
  ( /4FF7DEBF/4FF8EC7E SOT23_TO263AB_BEC  Q4 NPN {Lib=NPN}
-  (    1 GND )
-  (    2 /Power_Input_Stage/Q4B )
-  (    3 /Power_Input_Stage/Q3G )
+  (    B /Power_Input_Stage/Q4B )
+  (    C /Power_Input_Stage/Q3G )
+  (    E GND )
  )
  ( /4FF7DEBF/4FF8EC7D SM0402  R7 10K {Lib=R-US}
   (    1 VDDIO )
@@ -383,77 +188,204 @@
   (    1 GNDIN )
   (    2 VDDIO )
  )
+ ( /4FF7E68A/50891D05 $noname  LED2 LED {Lib=LED}
+  (    1 N-000097 )
+  (    2 /USB/RXLED )
+ )
+ ( /4FF7E68A/50891D04 $noname  R3 R-US {Lib=R-US}
+  (    1 N-000097 )
+  (    2 VDD33 )
+ )
+ ( /4FF7E68A/50891B9D $noname  R2 R-US {Lib=R-US}
+  (    1 N-000093 )
+  (    2 VDD33 )
+ )
+ ( /4FF7E68A/50891B4A $noname  LED1 LED {Lib=LED}
+  (    1 N-000093 )
+  (    2 /USB/TXLED )
+ )
+ ( /4FF7E68A/50891A68 $noname  FB2 FILTER {Lib=FILTER}
+  (    1 VBUS )
+  (    2 N-000094 )
+ )
+ ( /4FF7E68A/507E84BB c_0805  C5 4.7uF {Lib=C}
+  (    1 VDD5 )
+  (    2 GND )
+ )
+ ( /4FF7E68A/507E84B2 c_0402  C9 0.1uF {Lib=C}
+  (    1 VDD5 )
+  (    2 GND )
+ )
+ ( /4FF7E68A/507E800F $noname  U1 FT232RL {Lib=FT232RL}
+  (    1 /USB/USB_RX )
+  (    2 ? )
+  (    3 /USB/USB_~CTS~ )
+  (    4 VDD33 )
+  (    5 /Controller/USB_TX )
+  (    6 ? )
+  (    7 GND )
+  (    9 ? )
+  (   10 ? )
+  (   11 /Controller/USB_~RTS~ )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 /USB/USB_DP )
+  (   16 /USB/USB_DM )
+  (   17 N-000098 )
+  (   18 GND )
+  (   19 ? )
+  (   20 VDD5 )
+  (   21 GND )
+  (   22 /USB/RXLED )
+  (   23 /USB/TXLED )
+  (   25 GND )
+  (   26 GND )
+  (   27 ? )
+  (   28 ? )
+ )
+ ( /4FF7E68A/4FF7E886 c_0402  C8 0.1uF {Lib=C}
+  (    1 N-000098 )
+  (    2 GND )
+ )
+ ( /4FF7E68A/4FF7E83F CONN_USB2_MiniB_SMT  J5 USBCONN {Lib=USBCONN}
+  (    1 N-000094 )
+  (    2 /USB/USB_DM )
+  (    3 /USB/USB_DP )
+  (    4 GND )
+  (    5 GND )
+ )
+ ( /4FF7E232/5088F8EA SM0603  R1 510 {Lib=R-US}
+  (    1 GND )
+  (    2 /Controller/BOOT0 )
+ )
+ ( /4FF7E232/507E8399 c_0805  C10 4.7uF {Lib=C}
+  (    1 VDD33 )
+  (    2 GND )
+ )
+ ( /4FF7E232/507E79F3 LQFP64  U2 STM32F051RX {Lib=STM32F051RX}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 GND )
+  (   13 VDDA33 )
+  (   14 /USB/USB_~CTS~ )
+  (   15 /Controller/USB_~RTS~ )
+  (   16 /Controller/USB_TX )
+  (   17 /USB/USB_RX )
+  (   18 ? )
+  (   19 ? )
+  (   20 ? )
+  (   21 ? )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 ? )
+  (   30 ? )
+  (   31 GND )
+  (   32 VDD33 )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 ? )
+  (   37 /Controller/QE2A )
+  (   38 /Controller/QE2B )
+  (   39 ? )
+  (   40 ? )
+  (   41 ? )
+  (   42 ? )
+  (   43 ? )
+  (   44 ? )
+  (   45 ? )
+  (   46 ? )
+  (   47 ? )
+  (   48 ? )
+  (   49 ? )
+  (   50 /Controller/QE1A )
+  (   51 ? )
+  (   52 ? )
+  (   53 ? )
+  (   54 ? )
+  (   55 /Controller/QE1B )
+  (   56 ? )
+  (   57 ? )
+  (   58 ? )
+  (   59 ? )
+  (   60 /Controller/BOOT0 )
+  (   61 ? )
+  (   62 ? )
+  (   63 GND )
+  (   64 VDD33 )
+ )
+ ( /4FF7E232/4FF7E2B3 SIL-8  J1 CONN_8 {Lib=CONN_8}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 VDD5 )
+  (    7 GND )
+  (    8 /Power_Input_Stage/PWRGD )
+ )
+ ( /4FF7E232/4FF7E2B1 c_0402  C2 10nF {Lib=C}
+  (    1 VDD33 )
+  (    2 GND )
+ )
+ ( /4FF7E232/4FF7E2B0 c_0402  C1 0.1uF {Lib=C}
+  (    1 VDD33 )
+  (    2 GND )
+ )
+ ( /4FF7E232/4FF7E2AF c_0402  C3 0.1uF {Lib=C}
+  (    1 VDD33 )
+  (    2 GND )
+ )
+ ( /4FF7E232/4FF7E2AE c_0402  C4 10nF {Lib=C}
+  (    1 VDD33 )
+  (    2 GND )
+ )
+ ( /4FF7E232/4FF7E2A9 SIL-3  J2 CONN_3 {Lib=CONN_3}
+  (    1 VDD5 )
+  (    2 VDD5 )
+  (    3 VDD5 )
+ )
+ ( /4FF7E232/4FF7E2A8 SIL-3  J4 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+ )
+ ( /4FF7E232/4FF7E2A5 pin_array_4x2  J3 CONN_4X2 {Lib=CONN_4X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 /Controller/QE1A )
+  (    4 /Controller/QE2A )
+  (    5 /Controller/QE1B )
+  (    6 /Controller/QE2B )
+  (    7 VDD5 )
+  (    8 GND )
+ )
+ ( /4FF7E232/4FF7E2A3 c_0402  C7 10nF {Lib=C}
+  (    1 VDD33 )
+  (    2 GND )
+ )
+ ( /4FF7E232/4FF7E2A2 c_0402  C6 1uF {Lib=C}
+  (    1 VDD33 )
+  (    2 GND )
+ )
 )
 *
 { Allowed footprints by component:
-$component LED2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component LED1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C9
- SM*
- C?
- C1-1
-$endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
-$component C10
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C7
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
 $component C19
  SM*
  C?
@@ -552,231 +484,300 @@ $component C11
  CP*
  SM*
 $endlist
+$component LED2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component LED1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "/USB/USB_~CTS~" "USB_~CTS~"
- U1 3
- U2 14
-Net 2 "/Controller/USB_RX" "USB_RX"
- U2 17
- U1 1
-Net 3 "/USB/USB_TX" "USB_TX"
+Net 1 "/Power Input Stage/PWRGD" "PWRGD"
+ J1 8
+ U3 6
+Net 2 "/Controller/USB_TX" "USB_TX"
  U1 5
  U2 16
-Net 4 "/Power Input Stage/PWRGD" "PWRGD"
- U3 6
- J1 8
-Net 5 "/Controller/USB_~RTS~" "USB_~RTS~"
+Net 3 "/USB/USB_~CTS~" "USB_~CTS~"
+ U1 3
+ U2 14
+Net 4 "/Controller/USB_~RTS~" "USB_~RTS~"
  U2 15
  U1 11
-Net 6 "+5V" "+5V"
+Net 5 "/USB/USB_RX" "USB_RX"
+ U1 1
+ U2 17
+Net 6 "/Power Input Stage/VREG_EN" "VREG_EN"
+ R12 1
+ Q3 D
+Net 7 "/Power Input Stage/Q1G" "Q1G"
+ D4 1
+ R6 2
+ Q1 G
+Net 8 "+5V" "+5V"
+ L1 2
  D11 2
  R16 2
- C17 1
- L1 2
  C18 1
-Net 7 "VCC" "VCC"
- R10 2
- D1 1
- C11 1
- C12 1
- U3 2
- J6 2
- R12 2
- R6 1
-Net 8 "GNDPWR" "GNDPWR"
- Q1 D
- J6 1
- D1 2
-Net 9 "VDD33" "VDD33"
- C10 1
- U1 4
- C8 1
- C3 1
- C2 1
- C1 1
- C4 1
- R2 2
- C21 1
- U4 5
- U2 32
- C19 1
- C6 1
- C7 1
- U1 17
- R3 2
- FB1 1
- U2 64
-Net 10 "GND" "GND"
- C5 2
- C10 2
+ C17 1
+Net 9 "GND" "GND"
+ D9 2
  C9 2
- R15 1
- U1 21
- D4 2
+ C17 2
+ D6 2
+ C10 2
+ C14 2
+ C12 2
+ U2 31
+ C13 2
+ J5 5
+ C5 2
+ U2 12
+ J5 4
+ U2 63
+ C8 2
  U1 7
- R13 1
+ U1 21
+ R8 1
+ Q5 E
+ U4 2
+ J4 1
+ C15 2
+ J4 2
  C19 2
+ J4 3
+ R13 1
+ D4 2
+ R15 1
  R17 1
  C20 2
- C21 2
- Q4 1
- R8 1
- Q5 1
- C15 2
- C2 2
- J1 7
- C1 2
- C6 2
- C7 2
  J3 8
- J4 3
- U2 31
- U2 63
- U2 12
- J4 2
- J4 1
- C4 2
- C3 2
- C8 2
- J5 4
- J5 5
+ C21 2
+ Q4 E
+ C6 2
+ R1 1
+ Q2 S
  U1 25
  U1 26
  U1 18
- R1 1
- U4 2
- P1 1
  Q1 S
  U3 11
  U3 9
- D6 2
- C17 2
- D9 2
- C14 2
- C13 2
- C12 2
+ C7 2
+ J1 7
+ C2 2
+ C1 2
+ C3 2
+ R11 1
+ C4 2
+ P1 1
  C11 2
  C18 2
- Q2 S
- R11 1
-Net 11 "/Power Input Stage/VREG_EN" "VREG_EN"
- Q3 D
- R12 1
-Net 12 "/Power Input Stage/Q4B" "Q4B"
- R7 2
+Net 10 "/Power Input Stage/U1_EN" "U1_EN"
+ U3 3
+ R13 2
+ Q3 S
+ D3 2
+ D6 1
+Net 11 "/Power Input Stage/Q4B" "Q4B"
  R8 2
- Q4 2
-Net 13 "VDDIO" "VDDIO"
- D5 2
- R7 1
- D2 1
- J7 2
- Q2 G
+ Q4 B
+ R7 2
+Net 12 "VCC" "VCC"
+ J6 2
+ U3 2
+ C12 1
+ R6 1
+ C11 1
+ D1 1
+ R10 2
+ R12 2
+Net 13 "VBUS" "VBUS"
+ FB2 1
+ R9 1
 Net 14 "VDD5" "VDD5"
+ J1 6
  J3 7
- U4 3
  C15 1
  U4 1
- J2 3
- J2 2
  J2 1
- D11 1
- J1 6
- C5 1
  D5 1
- U1 20
- C20 1
+ C5 1
  C9 1
-Net 15 "VBUS" "VBUS"
- R9 1
- FB2 1
-Net 16 "/Power Input Stage/Q5B" "Q5B"
- R9 2
- R11 2
- Q5 2
-Net 17 "GNDIN" "GNDIN"
- J7 1
- D2 2
- Q2 D
-Net 18 "/Power Input Stage/R14C13" "R14C13"
- R14 1
- C13 1
+ C20 1
+ J2 3
+ D11 1
+ U4 3
+ J2 2
+ U1 20
+Net 16 "VDD33" "VDD33"
+ U4 5
+ R3 2
+ U1 4
+ R2 2
+ C21 1
+ C2 1
+ C6 1
+ C1 1
+ C7 1
+ C3 1
+ C4 1
+ FB1 1
+ U2 64
+ C19 1
+ U2 32
+ C10 1
+Net 17 "/Power Input Stage/U1_SS" "U1_SS"
+ C14 1
+ U3 4
+Net 18 "/Power Input Stage/U1_VSENSE" "U1_VSENSE"
+ R17 2
+ R16 1
+ U3 7
 Net 19 "VDDA33" "VDDA33"
  U2 13
  FB1 2
-Net 20 "/Power Input Stage/Q1G" "Q1G"
- D4 1
- Q1 G
- R6 2
-Net 21 "/Power Input Stage/U1_PH" "U1_PH"
- D9 1
- L1 1
- C16 2
- U3 10
-Net 22 "/Power Input Stage/U1_VSENSE" "U1_VSENSE"
- R16 1
- U3 7
- R17 2
-Net 23 "/Power Input Stage/U1_EN" "U1_EN"
- R13 2
- D3 2
- U3 3
- Q3 S
- D6 1
-Net 24 "/Power Input Stage/U1_COMP" "U1_COMP"
+Net 20 "/Power Input Stage/U1_COMP" "U1_COMP"
  R14 2
  U3 8
-Net 25 "/Power Input Stage/U1_SS" "U1_SS"
- U3 4
- C14 1
-Net 26 "/Power Input Stage/U1_RT" "U1_RT"
- U3 5
+Net 21 "/Power Input Stage/U1_RT" "U1_RT"
  R15 2
-Net 27 "/Power Input Stage/U1_BOOT" "U1_BOOT"
+ U3 5
+Net 22 "/Power Input Stage/U1_BOOT" "U1_BOOT"
  U3 1
  C16 1
-Net 29 "/Power Input Stage/Q3G" "Q3G"
- Q5 3
+Net 23 "/Power Input Stage/R14C13" "R14C13"
+ R14 1
+ C13 1
+Net 24 "GNDIN" "GNDIN"
+ J7 1
+ Q2 D
+ D2 2
+Net 25 "/Power Input Stage/Q5B" "Q5B"
+ Q5 B
+ R9 2
+ R11 2
+Net 26 "VDDIO" "VDDIO"
+ D5 2
+ D2 1
+ R7 1
+ J7 2
+ Q2 G
+Net 27 "/Power Input Stage/Q3G" "Q3G"
  Q3 G
+ Q5 C
  R10 1
+ Q4 C
  D3 1
- Q4 3
-Net 36 "/Controller/QE1B" "QE1B"
+Net 28 "/Power Input Stage/U1_PH" "U1_PH"
+ D9 1
+ C16 2
+ L1 1
+ U3 10
+Net 29 "GNDPWR" "GNDPWR"
+ Q1 D
+ D1 2
+ J6 1
+Net 56 "/Controller/QE1B" "QE1B"
  U2 55
  J3 5
-Net 39 "/Controller/QE2B" "QE2B"
+Net 58 "/Controller/QE2B" "QE2B"
  J3 6
  U2 38
-Net 50 "/Controller/QE2A" "QE2A"
- J3 4
- U2 37
-Net 54 "/Controller/BOOT0" "BOOT0"
- U2 60
- R1 2
-Net 55 "/Controller/QE1A" "QE1A"
+Net 59 "/Controller/QE1A" "QE1A"
  J3 3
  U2 50
+Net 60 "/Controller/BOOT0" "BOOT0"
+ U2 60
+ R1 2
+Net 81 "/Controller/QE2A" "QE2A"
+ U2 37
+ J3 4
 Net 93 "" ""
+ LED1 1
+ R2 1
+Net 94 "" ""
+ J5 1
+ FB2 2
+Net 95 "/USB/TXLED" "TXLED"
+ LED1 2
+ U1 23
+Net 96 "/USB/RXLED" "RXLED"
+ LED2 2
+ U1 22
+Net 97 "" ""
  R3 1
  LED2 1
-Net 94 "" ""
- R2 1
- LED1 1
-Net 95 "/USB/RXLED" "RXLED"
- U1 22
- LED2 2
-Net 96 "/USB/USB_DP" "USB_DP"
- U1 15
- J5 3
-Net 97 "/USB/TXLED" "TXLED"
- U1 23
- LED1 2
 Net 98 "" ""
- FB2 2
- J5 1
-Net 99 "/USB/USB_DM" "USB_DM"
+ C8 1
+ U1 17
+Net 99 "/USB/USB_DP" "USB_DP"
+ J5 3
+ U1 15
+Net 100 "/USB/USB_DM" "USB_DM"
  J5 2
  U1 16
 }

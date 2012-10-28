@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/25/2012 8:09:00 AM
+EESchema Schematic File Version 2  date 10/28/2012 2:31:33 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,7 +44,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 5
 Title "Motion Controller template"
-Date "25 oct 2012"
+Date "28 oct 2012"
 Rev "0"
 Comp "Unified Robotics"
 Comment1 ""
@@ -52,6 +52,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 1850 1000 2000 1500
+U 4FF7DEBF
+F0 "Power Input Stage" 60
+F1 "MC-Power.sch" 60
+F2 "PWRGD" O R 3850 1550 60 
+$EndSheet
 Text Label 4200 3950 0    50   ~ 0
 USB_~CTS~
 Text Label 4200 4100 0    50   ~ 0
@@ -94,13 +101,6 @@ F3 "USB_RX" I L 4850 3800 60
 F4 "USB_TX" O L 4850 3650 60 
 F5 "USB_~CTS~" I L 4850 3950 60 
 F6 "USB_~RTS~" O L 4850 4100 60 
-$EndSheet
-$Sheet
-S 1850 1000 2000 1500
-U 4FF7DEBF
-F0 "Power Input Stage" 60
-F1 "MC-Power.sch" 60
-F2 "PWRGD" O R 3850 1550 60 
 $EndSheet
 $Sheet
 S 7850 2900 2000 1500
