@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  10/28/2012 4:43:08 AM
+# EESchema Netlist Version 1.1 created  10/28/2012 4:58:57 AM
 (
  ( /4FF7DEBF/5089270B c_0402  C19 1uF {Lib=C}
   (    1 VDD33 )
@@ -273,7 +273,7 @@
   (    2 /Controller/POT1 )
   (    3 GND )
  )
- ( /4FF7E232/5088F8EA SM0603  R1 510 {Lib=R-US}
+ ( /4FF7E232/5088F8EA SM0402  R1 510 {Lib=R-US}
   (    1 GND )
   (    2 /Controller/BOOT0 )
  )
