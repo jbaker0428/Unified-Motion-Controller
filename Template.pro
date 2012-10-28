@@ -1,5 +1,5 @@
-update=10/28/2012 2:30:21 AM
-last_client=eeschema
+update=10/28/2012 4:33:56 AM
+last_client=cvpcb
 [pcbnew]
 version=1
 PadDrlX=0
@@ -39,12 +39,7 @@ LibName18=smd_resistors
 LibName19=sot
 LibName20=sockets
 LibName21=ti
-LibDir=C:/Users/jbaker/Dropbox/Kicad-Libraries/modules
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibDir=C:/Users/Joe/Dropbox/Kicad-Libraries/modules
 [eeschema]
 version=1
 LibDir=C:/Users/Joe/Dropbox/Kicad-Libraries/library
@@ -115,3 +110,8 @@ LibName35=pic18
 LibName36=passives
 LibName37=ftdi
 LibName38=stm32
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
