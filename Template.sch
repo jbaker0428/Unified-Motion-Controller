@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/28/2012 5:02:32 AM
+EESchema Schematic File Version 2  date 11/1/2012 8:28:15 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -15,6 +15,7 @@ LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
 LIBS:analog_switches
+LIBS:maxim
 LIBS:motorola
 LIBS:texas
 LIBS:intel
@@ -44,7 +45,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 5
 Title "Motion Controller template"
-Date "28 oct 2012"
+Date "1 nov 2012"
 Rev "0"
 Comp "Unified Robotics"
 Comment1 ""
@@ -52,17 +53,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1850 1000 2000 1500
-U 4FF7DEBF
-F0 "Power Input Stage" 60
-F1 "MC-Power.sch" 60
-F2 "PWRGD" O R 3850 1550 60 
-$EndSheet
-Text Label 4200 3950 0    50   ~ 0
-USB_~CTS~
-Text Label 4200 4100 0    50   ~ 0
-USB_~RTS~
+Wire Wire Line
+	6850 4100 7850 4100
+Wire Wire Line
+	6850 3750 7850 3750
+Wire Wire Line
+	6850 4200 7850 4200
 Wire Wire Line
 	4850 3950 3850 3950
 Wire Wire Line
@@ -77,6 +73,23 @@ Wire Wire Line
 	3850 3650 4850 3650
 Wire Wire Line
 	4850 4100 3850 4100
+Wire Wire Line
+	6850 3850 7850 3850
+Wire Wire Line
+	6850 3650 7850 3650
+Wire Wire Line
+	7850 4000 6850 4000
+$Sheet
+S 1850 1000 2000 1500
+U 4FF7DEBF
+F0 "Power Input Stage" 60
+F1 "MC-Power.sch" 60
+F2 "PWRGD" O R 3850 1550 60 
+$EndSheet
+Text Label 4200 3950 0    50   ~ 0
+USB_~CTS~
+Text Label 4200 4100 0    50   ~ 0
+USB_~RTS~
 $Sheet
 S 1850 2900 2000 1500
 U 4FF7E68A
@@ -101,11 +114,23 @@ F3 "USB_RX" I L 4850 3800 60
 F4 "USB_TX" O L 4850 3650 60 
 F5 "USB_~CTS~" I L 4850 3950 60 
 F6 "USB_~RTS~" O L 4850 4100 60 
+F7 "HB2_ISENSE" I R 6850 4200 60 
+F8 "HB1_ISENSE" I R 6850 3850 60 
+F9 "HB2_PWM1" O R 6850 4000 60 
+F10 "HB2_PWM2" O R 6850 4100 60 
+F11 "HB1_PWM2" O R 6850 3750 60 
+F12 "HB1_PWM1" O R 6850 3650 60 
 $EndSheet
 $Sheet
 S 7850 2900 2000 1500
 U 4FF7E59F
 F0 "Motor Driver" 60
 F1 "MC-driver.sch" 60
+F2 "HB2_ISENSE" O L 7850 4200 60 
+F3 "HB2_PWM1" I L 7850 4000 60 
+F4 "HB2_PWM2" I L 7850 4100 60 
+F5 "HB1_PWM2" I L 7850 3750 60 
+F6 "HB1_PWM1" I L 7850 3650 60 
+F7 "HB1_ISENSE" O L 7850 3850 60 
 $EndSheet
 $EndSCHEMATC
