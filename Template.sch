@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/1/2012 11:15:10 AM
+EESchema Schematic File Version 2  date 11/1/2012 1:53:08 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -53,6 +53,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 4850 2900 2000 1500
+U 4FF7E232
+F0 "Controller" 60
+F1 "MC-Controller.sch" 60
+F2 "USB_RX" I L 4850 3800 60 
+F3 "USB_TX" O L 4850 3650 60 
+F4 "USB_~CTS~" I L 4850 3950 60 
+F5 "USB_~RTS~" O L 4850 4100 60 
+F6 "HB2_ISENSE" I R 6850 4200 60 
+F7 "HB1_ISENSE" I R 6850 3850 60 
+F8 "HB2_PWM1" O R 6850 4000 60 
+F9 "HB2_PWM2" O R 6850 4100 60 
+F10 "HB1_PWM2" O R 6850 3750 60 
+F11 "HB1_PWM1" O R 6850 3650 60 
+$EndSheet
 Wire Wire Line
 	6850 4100 7850 4100
 Wire Wire Line
@@ -63,12 +79,6 @@ Wire Wire Line
 	4850 3950 3850 3950
 Wire Wire Line
 	4850 3800 3850 3800
-Wire Wire Line
-	3850 1550 4450 1550
-Wire Wire Line
-	4850 3350 4450 3350
-Wire Wire Line
-	4450 3350 4450 1550
 Wire Wire Line
 	3850 3650 4850 3650
 Wire Wire Line
@@ -84,7 +94,6 @@ S 1850 1000 2000 1500
 U 4FF7DEBF
 F0 "Power Input Stage" 60
 F1 "MC-Power.sch" 60
-F2 "PWRGD" O R 3850 1550 60 
 $EndSheet
 Text Label 4200 3950 0    50   ~ 0
 USB_~CTS~
@@ -104,23 +113,6 @@ Text Label 4200 3800 0    50   ~ 0
 USB_RX
 Text Label 4200 3650 0    50   ~ 0
 USB_TX
-$Sheet
-S 4850 2900 2000 1500
-U 4FF7E232
-F0 "Controller" 60
-F1 "MC-Controller.sch" 60
-F2 "PWRGD" I L 4850 3350 60 
-F3 "USB_RX" I L 4850 3800 60 
-F4 "USB_TX" O L 4850 3650 60 
-F5 "USB_~CTS~" I L 4850 3950 60 
-F6 "USB_~RTS~" O L 4850 4100 60 
-F7 "HB2_ISENSE" I R 6850 4200 60 
-F8 "HB1_ISENSE" I R 6850 3850 60 
-F9 "HB2_PWM1" O R 6850 4000 60 
-F10 "HB2_PWM2" O R 6850 4100 60 
-F11 "HB1_PWM2" O R 6850 3750 60 
-F12 "HB1_PWM1" O R 6850 3650 60 
-$EndSheet
 $Sheet
 S 7850 2900 2000 1500
 U 4FF7E59F
