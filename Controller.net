@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  11/8/2012 4:06:07 AM
+# EESchema Netlist Version 1.1 created  11/8/2012 4:19:06 AM
 (
  ( /4FF7E232/509B5ABB SM0402  R42 200 {Lib=R-US}
   (    1 /Controller/SPI1_SCK )
@@ -436,7 +436,7 @@
   (    1 N-000121 )
   (    2 /USB/TXLED )
  )
- ( /4FF7E68A/50891A68 $noname  FB2 FILTER {Lib=FILTER}
+ ( /4FF7E68A/50891A68 SM0603  FB2 FILTER {Lib=FILTER}
   (    1 VBUS )
   (    2 N-000122 )
  )
