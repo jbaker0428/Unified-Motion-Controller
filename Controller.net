@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  11/8/2012 11:01:12 AM
+# EESchema Netlist Version 1.1 created  11/8/2012 12:22:18 PM
 (
  ( /4FF7E232/509B5ABB SM0402  R2 200 {Lib=R-US}
   (    1 /Controller/SPI1_SCK )
@@ -527,7 +527,7 @@
   (    G /Motor_Driver/HB2_PG1 )
   (    S /Motor_Driver/HB2_VCC )
  )
- ( /4FF7E59F/50926937 UMAX8  U8 MAX8040 {Lib=MAX8040}
+ ( /4FF7E59F/50926937 UMAX8  U8 MAX4080 {Lib=MAX4080}
   (    1 VCC )
   (    2 VCC )
   (    3 ? )
@@ -657,7 +657,7 @@
   (    1 VCC )
   (    2 N-000112 )
  )
- ( /4FF7E59F/508F72E6 UMAX8  U6 MAX8040 {Lib=MAX8040}
+ ( /4FF7E59F/508F72E6 UMAX8  U6 MAX4080 {Lib=MAX4080}
   (    1 VCC )
   (    2 VCC )
   (    3 ? )
