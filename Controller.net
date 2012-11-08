@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  11/8/2012 9:29:49 AM
+# EESchema Netlist Version 1.1 created  11/8/2012 11:01:12 AM
 (
  ( /4FF7E232/509B5ABB SM0402  R2 200 {Lib=R-US}
   (    1 /Controller/SPI1_SCK )
@@ -98,10 +98,10 @@
   (   11 ? )
   (   12 GND )
   (   13 VDDA33 )
-  (   14 /USB/USB_~CTS~ )
-  (   15 /USB/USB_~RTS~ )
+  (   14 /Controller/USB_~CTS~ )
+  (   15 /Controller/USB_~RTS~ )
   (   16 /USB/USB_TX )
-  (   17 /Controller/USB_RX )
+  (   17 /USB/USB_RX )
   (   18 /Controller/M1_B1 )
   (   19 /Controller/M1_B2 )
   (   20 /Controller/SPI1_~SS~ )
@@ -110,7 +110,7 @@
   (   23 /Controller/SPI1_MOSI )
   (   24 /Controller/M2_B1 )
   (   25 /Controller/M2_B2 )
-  (   26 /Motor_Driver/HB1_ISENSE )
+  (   26 /Controller/HB1_ISENSE )
   (   27 /Controller/HB2_ISENSE )
   (   28 ? )
   (   29 /Controller/RC1 )
@@ -126,9 +126,9 @@
   (   39 /Controller/RC1 )
   (   40 /Controller/RC2 )
   (   41 /Motor_Driver/HB1_PWM1 )
-  (   42 /Controller/HB1_PWM2 )
-  (   43 /Motor_Driver/HB2_PWM1 )
-  (   44 /Controller/HB2_PWM2 )
+  (   42 /Motor_Driver/HB1_PWM2 )
+  (   43 /Controller/HB2_PWM1 )
+  (   44 /Motor_Driver/HB2_PWM2 )
   (   45 /Controller/IND2 )
   (   46 ? )
   (   47 ? )
@@ -199,7 +199,7 @@
   (    1 VDD33 )
   (    2 GND )
  )
- ( /4FF7DEBF/509BC18D SOD123F-REFLOW  D14 DIODESCH {Lib=D_SCHOTTKY}
+ ( /4FF7DEBF/509BC18D SOD123F-REFLOW  D12 DIODESCH {Lib=D_SCHOTTKY}
   (    1 VDD5 )
   (    2 VBUS )
  )
@@ -207,40 +207,22 @@
   (    1 VDD33 )
   (    2 N-000016 )
  )
- ( /4FF7DEBF/50928582 282857-4  J2 CONN_4 {Lib=CONN_4}
-  (    1 GND3 )
-  (    2 VCC2 )
-  (    3 VCC2 )
-  (    4 VCC2 )
- )
- ( /4FF7DEBF/5092826C SM0805  R17 120 {Lib=R-US}
+ ( /4FF7DEBF/5092826C SM0805  R16 120 {Lib=R-US}
   (    1 N-000016 )
   (    2 GND )
  )
- ( /4FF7DEBF/50928255 SM0805  R16 330 {Lib=R-US}
-  (    1 N-000023 )
+ ( /4FF7DEBF/50928255 SM0805  R15 330 {Lib=R-US}
+  (    1 N-000017 )
   (    2 GND )
  )
  ( /4FF7DEBF/5092823A SM0603  LED1 G {Lib=LED}
   (    1 VDD5 )
-  (    2 N-000023 )
- )
- ( /4FF7DEBF/50927DF8 SM0805  R11 2K {Lib=R-US}
-  (    1 VCC2 )
-  (    2 /Power_Input_Stage/Q2G )
+  (    2 N-000017 )
  )
  ( /4FF7DEBF/50927DF7 TO252G2DS  Q2 MOS_N {Lib=MOSFET_N_OPENDOUS}
-  (    D GND3 )
-  (    G /Power_Input_Stage/Q2G )
+  (    D GND2 )
+  (    G /Power_Input_Stage/VIN_GATE )
   (    S GND )
- )
- ( /4FF7DEBF/50927DF6 SMB-BIDIR  D9 TVS {Lib=ESD_ZENER}
-  (    1 VCC2 )
-  (    2 GND3 )
- )
- ( /4FF7DEBF/50927DF4 SOD323F-REFLOW  D10 18.51V {Lib=D_ZENER}
-  (    1 /Power_Input_Stage/Q2G )
-  (    2 GND )
  )
  ( /4FF7DEBF/5089270B c_0402  C16 1uF {Lib=C}
   (    1 VDD33 )
@@ -257,11 +239,11 @@
   (    4 ? )
   (    5 VDD33 )
  )
- ( /4FF7DEBF/504B9D4B SOD123F-REFLOW  D7 DIODESCH {Lib=D_SCHOTTKY}
+ ( /4FF7DEBF/504B9D4B SOD123F-REFLOW  D5 DIODESCH {Lib=D_SCHOTTKY}
   (    1 VDD5 )
   (    2 +5V )
  )
- ( /4FF7DEBF/504B9A36 SM0402  R20 10K {Lib=R-US}
+ ( /4FF7DEBF/504B9A36 SM0402  R19 10K {Lib=R-US}
   (    1 VBUS )
   (    2 /Power_Input_Stage/Q5B )
  )
@@ -270,11 +252,11 @@
   (    C /Power_Input_Stage/Q6G )
   (    E GND )
  )
- ( /4FF7DEBF/504B9A33 SM0402  R22 150K {Lib=R-US}
+ ( /4FF7DEBF/504B9A33 SM0402  R21 150K {Lib=R-US}
   (    1 GND )
   (    2 /Power_Input_Stage/Q5B )
  )
- ( /4FF7DEBF/4FFA41A4 SM0402  R14 10K {Lib=R-US}
+ ( /4FF7DEBF/4FFA41A4 SM0402  R13 10K {Lib=R-US}
   (    1 GND )
   (    2 /Power_Input_Stage/VREG_VSENSE )
  )
@@ -282,15 +264,15 @@
   (    1 /Power_Input_Stage/VREG_VSENSE )
   (    2 +5V )
  )
- ( /4FF7DEBF/4FFA3DEB SM0402  R15 97.6K {Lib=R-US}
+ ( /4FF7DEBF/4FFA3DEB SM0402  R14 97.6K {Lib=R-US}
   (    1 GND )
   (    2 /Power_Input_Stage/VREG_RT )
  )
- ( /4FF7DEBF/4FFA3CD4 SM0402  R12 8.06K {Lib=R-US}
+ ( /4FF7DEBF/4FFA3CD4 SM0402  R11 8.06K {Lib=R-US}
   (    1 /Power_Input_Stage/COMP )
   (    2 /Power_Input_Stage/VREG_COMP )
  )
- ( /4FF7DEBF/4FFA3C60 SM0402  R13 35.7K {Lib=R-US}
+ ( /4FF7DEBF/4FFA3C60 SM0402  R12 35.7K {Lib=R-US}
   (    1 GND )
   (    2 /Power_Input_Stage/VREG_EN_S )
  )
@@ -298,15 +280,15 @@
   (    1 /Power_Input_Stage/VREG_EN_D )
   (    2 VCC )
  )
- ( /4FF7DEBF/4FF7E017 SOD323F-REFLOW  D6 18.51V {Lib=D_ZENER}
-  (    1 /Power_Input_Stage/Q1G )
+ ( /4FF7DEBF/4FF7E017 SOD323F-REFLOW  D7 18.51V {Lib=D_ZENER}
+  (    1 /Power_Input_Stage/VIN_GATE )
   (    2 GND )
  )
- ( /4FF7DEBF/4FF8ECA2 SOD323F-REFLOW  D15 18.51V {Lib=D_ZENER}
+ ( /4FF7DEBF/4FF8ECA2 SOD323F-REFLOW  D13 18.51V {Lib=D_ZENER}
   (    1 /Power_Input_Stage/Q6G )
   (    2 /Power_Input_Stage/VREG_EN_S )
  )
- ( /4FF7DEBF/4FF8EC80 SM0402  R21 150K {Lib=R-US}
+ ( /4FF7DEBF/4FF8EC80 SM0402  R20 150K {Lib=R-US}
   (    1 GND )
   (    2 /Power_Input_Stage/Q4B )
  )
@@ -315,11 +297,11 @@
   (    C /Power_Input_Stage/Q6G )
   (    E GND )
  )
- ( /4FF7DEBF/4FF8EC7D SM0402  R19 10K {Lib=R-US}
+ ( /4FF7DEBF/4FF8EC7D SM0402  R18 10K {Lib=R-US}
   (    1 VDDIO )
   (    2 /Power_Input_Stage/Q4B )
  )
- ( /4FF7DEBF/4FF8EC7C SM0402  R18 10K {Lib=R-US}
+ ( /4FF7DEBF/4FF8EC7C SM0402  R17 10K {Lib=R-US}
   (    1 /Power_Input_Stage/Q6G )
   (    2 VCC )
  )
@@ -328,15 +310,19 @@
   (    G /Power_Input_Stage/Q6G )
   (    S /Power_Input_Stage/VREG_EN_S )
  )
- ( /4FF7DEBF/4FF7E03F SOD123F-REFLOW  D12 DIODESCH {Lib=D_SCHOTTKY}
+ ( /4FF7DEBF/4FF7E03F SOD123F-REFLOW  D10 DIODESCH {Lib=D_SCHOTTKY}
   (    1 VDD5 )
   (    2 VDDIO )
  )
- ( /4FF7DEBF/4FF7E03C 282857-4  J1 CONN_4 {Lib=CONN_4}
+ ( /4FF7DEBF/4FF7E03C 282857-8  J1 CONN_8 {Lib=CONN_8}
   (    1 GND2 )
-  (    2 VCC )
-  (    3 VCC )
-  (    4 VCC )
+  (    2 GND2 )
+  (    3 GND2 )
+  (    4 GND2 )
+  (    5 VCC )
+  (    6 VCC )
+  (    7 VCC )
+  (    8 VCC )
  )
  ( /4FF7DEBF/4FF7E03B S-PDSO-G10  U2 TPS54040 {Lib=TPS54040}
   (    1 /Power_Input_Stage/VREG_BOOT )
@@ -379,7 +365,7 @@
   (    1 +5V )
   (    2 GND )
  )
- ( /4FF7DEBF/4FF7E028 SOD123  D11 Vz=2.4V {Lib=D_ZENER}
+ ( /4FF7DEBF/4FF7E028 SOD123  D9 Vz=2.4V {Lib=D_ZENER}
   (    1 /Power_Input_Stage/VREG_EN_S )
   (    2 GND )
  )
@@ -391,11 +377,11 @@
   (    1 VCC )
   (    2 GND )
  )
- ( /4FF7DEBF/4FF7E021 SMB-BIDIR  D5 TVS {Lib=ESD_ZENER}
+ ( /4FF7DEBF/4FF7E021 SMB-BIDIR  D6 TVS {Lib=ESD_ZENER}
   (    1 VCC )
   (    2 GND2 )
  )
- ( /4FF7DEBF/4FF7E020 SOD323-REFLOW-CA  D13 ESD_ZENER {Lib=ESD_ZENER_CA}
+ ( /4FF7DEBF/4FF7E020 SOD323-REFLOW-CA  D11 ESD_ZENER {Lib=ESD_ZENER_CA}
   (    1 VDDIO )
   (    2 GNDIN )
  )
@@ -408,33 +394,33 @@
  )
  ( /4FF7DEBF/4FF7E01A TO252G2DS  Q1 MOS_N {Lib=MOSFET_N_OPENDOUS}
   (    D GND2 )
-  (    G /Power_Input_Stage/Q1G )
+  (    G /Power_Input_Stage/VIN_GATE )
   (    S GND )
  )
  ( /4FF7DEBF/4FF7E019 SM0805  R8 2K {Lib=R-US}
   (    1 VCC )
-  (    2 /Power_Input_Stage/Q1G )
+  (    2 /Power_Input_Stage/VIN_GATE )
  )
  ( /4FF7DEBF/4FF7E015 SOT457_2DGS2D  Q3 MOS_N {Lib=MOSFET_N_OPENDOUS}
   (    D GNDIN )
   (    G VDDIO )
   (    S GND )
  )
- ( /4FF7DEBF/4FF7E012 1776275-2  J3 CONN_2 {Lib=CONN_2}
+ ( /4FF7DEBF/4FF7E012 1776275-2  J2 CONN_2 {Lib=CONN_2}
   (    1 GNDIN )
   (    2 VDDIO )
  )
- ( /4FF7E68A/50891B9D SM0805  R23 120 {Lib=R-US}
-  (    1 N-000121 )
+ ( /4FF7E68A/50891B9D SM0805  R22 120 {Lib=R-US}
+  (    1 N-000118 )
   (    2 VDD33 )
  )
  ( /4FF7E68A/50891B4A SM0603  LED3 Y {Lib=LED}
-  (    1 N-000121 )
+  (    1 N-000118 )
   (    2 /USB/TXRXLED )
  )
  ( /4FF7E68A/50891A68 SM0603  FB2 FILTER {Lib=FILTER}
   (    1 VBUS )
-  (    2 N-000122 )
+  (    2 N-000119 )
  )
  ( /4FF7E68A/507E84BB c_0805  C17 4.7uF {Lib=C}
   (    1 VDD5 )
@@ -445,22 +431,22 @@
   (    2 GND )
  )
  ( /4FF7E68A/507E800F SSOP28  U4 FT232RL {Lib=FT232RL}
-  (    1 /Controller/USB_RX )
+  (    1 /USB/USB_RX )
   (    2 ? )
-  (    3 /USB/USB_~CTS~ )
+  (    3 /Controller/USB_~CTS~ )
   (    4 VDD33 )
   (    5 /USB/USB_TX )
   (    6 ? )
   (    7 GND )
   (    9 ? )
   (   10 ? )
-  (   11 /USB/USB_~RTS~ )
+  (   11 /Controller/USB_~RTS~ )
   (   12 ? )
   (   13 ? )
   (   14 ? )
   (   15 /USB/USB_DP )
   (   16 /USB/USB_DM )
-  (   17 N-000124 )
+  (   17 N-000121 )
   (   18 GND )
   (   19 ? )
   (   20 VDD5 )
@@ -473,45 +459,45 @@
   (   28 ? )
  )
  ( /4FF7E68A/4FF7E886 c_0402  C19 0.1uF {Lib=C}
-  (    1 N-000124 )
+  (    1 N-000121 )
   (    2 GND )
  )
- ( /4FF7E68A/4FF7E83F CONN_USB2_MiniB_SMT  J4 USBCONN {Lib=USBCONN}
-  (    1 N-000122 )
+ ( /4FF7E68A/4FF7E83F CONN_USB2_MiniB_SMT  J3 USBCONN {Lib=USBCONN}
+  (    1 N-000119 )
   (    2 /USB/USB_DM )
   (    3 /USB/USB_DP )
   (    4 GND )
   (    5 GND )
  )
- ( /4FF7E59F/5092C406 SOD323F-REFLOW  D23 100V {Lib=D_SCHOTTKY}
+ ( /4FF7E59F/5092C406 SOD323F-REFLOW  D21 100V {Lib=D_SCHOTTKY}
   (    1 /Motor_Driver/M2_2 )
   (    2 GND )
  )
- ( /4FF7E59F/5092C3FB SOD323F-REFLOW  D21 100V {Lib=D_SCHOTTKY}
+ ( /4FF7E59F/5092C3FB SOD323F-REFLOW  D19 100V {Lib=D_SCHOTTKY}
   (    1 /Motor_Driver/HB2_VCC )
   (    2 /Motor_Driver/M2_2 )
  )
- ( /4FF7E59F/5092C3F8 SOD323F-REFLOW  D22 100V {Lib=D_SCHOTTKY}
+ ( /4FF7E59F/5092C3F8 SOD323F-REFLOW  D20 100V {Lib=D_SCHOTTKY}
   (    1 /Motor_Driver/M2_1 )
   (    2 GND )
  )
- ( /4FF7E59F/5092C3ED SOD323F-REFLOW  D20 100V {Lib=D_SCHOTTKY}
+ ( /4FF7E59F/5092C3ED SOD323F-REFLOW  D18 100V {Lib=D_SCHOTTKY}
   (    1 /Motor_Driver/HB2_VCC )
   (    2 /Motor_Driver/M2_1 )
  )
- ( /4FF7E59F/5092C37B SOD323F-REFLOW  D19 100V {Lib=D_SCHOTTKY}
+ ( /4FF7E59F/5092C37B SOD323F-REFLOW  D17 100V {Lib=D_SCHOTTKY}
   (    1 /Motor_Driver/M1_2 )
   (    2 GND )
  )
- ( /4FF7E59F/5092C379 SOD323F-REFLOW  D18 100V {Lib=D_SCHOTTKY}
+ ( /4FF7E59F/5092C379 SOD323F-REFLOW  D16 100V {Lib=D_SCHOTTKY}
   (    1 /Motor_Driver/M1_1 )
   (    2 GND )
  )
- ( /4FF7E59F/5092C359 SOD323F-REFLOW  D17 100V {Lib=D_SCHOTTKY}
+ ( /4FF7E59F/5092C359 SOD323F-REFLOW  D15 100V {Lib=D_SCHOTTKY}
   (    1 /Motor_Driver/HB1_VCC )
   (    2 /Motor_Driver/M1_2 )
  )
- ( /4FF7E59F/5092C252 SOD323F-REFLOW  D16 100V {Lib=D_SCHOTTKY}
+ ( /4FF7E59F/5092C252 SOD323F-REFLOW  D14 100V {Lib=D_SCHOTTKY}
   (    1 /Motor_Driver/HB1_VCC )
   (    2 /Motor_Driver/M1_1 )
  )
@@ -531,12 +517,6 @@
   (    1 /Motor_Driver/HB1_VCC )
   (    2 GND )
  )
- ( /4FF7E59F/50928169 282857-4  J6 CONN_2 {Lib=CONN_4}
-  (    1 /Motor_Driver/M2_1 )
-  (    2 /Motor_Driver/M2_1 )
-  (    3 /Motor_Driver/M2_2 )
-  (    4 /Motor_Driver/M2_2 )
- )
  ( /4FF7E59F/5092693C TO252G2DS  Q13 MOSFET_N_OPENDOUS {Lib=MOSFET_N_OPENDOUS}
   (    D /Motor_Driver/M2_1 )
   (    G /Motor_Driver/HB2_NG1 )
@@ -548,34 +528,34 @@
   (    S /Motor_Driver/HB2_VCC )
  )
  ( /4FF7E59F/50926937 UMAX8  U8 MAX8040 {Lib=MAX8040}
-  (    1 VCC2 )
-  (    2 VCC2 )
+  (    1 VCC )
+  (    2 VCC )
   (    3 ? )
   (    4 GND )
-  (    5 N-000096 )
+  (    5 N-000093 )
   (    6 ? )
   (    7 ? )
   (    8 /Motor_Driver/HB2_VCC )
  )
- ( /4FF7E59F/50926936 SM3637  R34 0.009R {Lib=R-US}
-  (    1 VCC2 )
-  (    2 N-000097 )
+ ( /4FF7E59F/50926936 SM3637  R33 0.009R {Lib=R-US}
+  (    1 VCC )
+  (    2 N-000095 )
  )
- ( /4FF7E59F/50926934 SM0402  R36 10 {Lib=R-US}
-  (    1 /Motor_Driver/HB2_PWM1 )
+ ( /4FF7E59F/50926934 SM0402  R35 10 {Lib=R-US}
+  (    1 /Controller/HB2_PWM1 )
   (    2 /Motor_Driver/HB2_PG1 )
  )
- ( /4FF7E59F/50926933 SM0402  R42 10 {Lib=R-US}
-  (    1 /Controller/HB2_PWM2 )
+ ( /4FF7E59F/50926933 SM0402  R41 10 {Lib=R-US}
+  (    1 /Motor_Driver/HB2_PWM2 )
   (    2 /Motor_Driver/HB2_NG1 )
  )
- ( /4FF7E59F/50926932 SM0402  R37 10 {Lib=R-US}
+ ( /4FF7E59F/50926932 SM0402  R36 10 {Lib=R-US}
   (    1 /Motor_Driver/HB2_PG2 )
-  (    2 /Motor_Driver/HB2_PWM1 )
+  (    2 /Controller/HB2_PWM1 )
  )
- ( /4FF7E59F/50926931 SM0402  R43 10 {Lib=R-US}
+ ( /4FF7E59F/50926931 SM0402  R42 10 {Lib=R-US}
   (    1 /Motor_Driver/HB2_NG2 )
-  (    2 /Controller/HB2_PWM2 )
+  (    2 /Motor_Driver/HB2_PWM2 )
  )
  ( /4FF7E59F/50926930 TO252G2DS  Q14 MOSFET_N_OPENDOUS {Lib=MOSFET_N_OPENDOUS}
   (    D /Motor_Driver/M2_2 )
@@ -587,15 +567,15 @@
   (    G /Motor_Driver/HB2_PG2 )
   (    S /Motor_Driver/HB2_VCC )
  )
- ( /4FF7E59F/5092692E SM3637  R35 0.009R {Lib=R-US}
-  (    1 N-000097 )
+ ( /4FF7E59F/5092692E SM3637  R34 0.009R {Lib=R-US}
+  (    1 N-000095 )
   (    2 /Motor_Driver/HB2_VCC )
  )
- ( /4FF7E59F/5092692D SM0402  R39 10k {Lib=R-US}
-  (    1 N-000096 )
+ ( /4FF7E59F/5092692D SM0402  R38 10k {Lib=R-US}
+  (    1 N-000093 )
   (    2 /Motor_Driver/ISAMP2_V-A )
  )
- ( /4FF7E59F/5092692C SM0402  R41 7.32k {Lib=R-US}
+ ( /4FF7E59F/5092692C SM0402  R40 7.32k {Lib=R-US}
   (    1 /Motor_Driver/ISAMP2_OUTA )
   (    2 /Motor_Driver/ISAMP2_V-A )
  )
@@ -609,24 +589,24 @@
   (    7 /Motor_Driver/ISAMP2_OUTA )
   (    8 VDD5 )
  )
- ( /4FF7E59F/50926927 SM0402  R38 10k {Lib=R-US}
+ ( /4FF7E59F/50926927 SM0402  R37 10k {Lib=R-US}
   (    1 /Motor_Driver/ISAMP2_OUTA )
   (    2 /Motor_Driver/ISAMP2_V-B )
  )
- ( /4FF7E59F/50926926 SM0402  R40 10k {Lib=R-US}
+ ( /4FF7E59F/50926926 SM0402  R39 10k {Lib=R-US}
   (    1 /Controller/HB2_ISENSE )
   (    2 /Motor_Driver/ISAMP2_V-B )
  )
- ( /4FF7E59F/50925F88 SM0402  R30 10k {Lib=R-US}
-  (    1 /Motor_Driver/HB1_ISENSE )
+ ( /4FF7E59F/50925F88 SM0402  R29 10k {Lib=R-US}
+  (    1 /Controller/HB1_ISENSE )
   (    2 /Motor_Driver/ISAMP1_V-B )
  )
- ( /4FF7E59F/50925F76 SM0402  R28 10k {Lib=R-US}
+ ( /4FF7E59F/50925F76 SM0402  R27 10k {Lib=R-US}
   (    1 /Motor_Driver/ISAMP1_OUTA )
   (    2 /Motor_Driver/ISAMP1_V-B )
  )
  ( /4FF7E59F/50925E56 TSSOP8  U5 LM358 {Lib=LM358}
-  (    1 /Motor_Driver/HB1_ISENSE )
+  (    1 /Controller/HB1_ISENSE )
   (    2 /Motor_Driver/ISAMP1_V-B )
   (    3 GND )
   (    4 GND )
@@ -635,16 +615,16 @@
   (    7 /Motor_Driver/ISAMP1_OUTA )
   (    8 VDD5 )
  )
- ( /4FF7E59F/509259BA SM0402  R31 7.32k {Lib=R-US}
+ ( /4FF7E59F/509259BA SM0402  R30 7.32k {Lib=R-US}
   (    1 /Motor_Driver/ISAMP1_OUTA )
   (    2 /Motor_Driver/ISAMP1_V-A )
  )
- ( /4FF7E59F/5092595D SM0402  R29 10k {Lib=R-US}
-  (    1 N-000113 )
+ ( /4FF7E59F/5092595D SM0402  R28 10k {Lib=R-US}
+  (    1 N-000110 )
   (    2 /Motor_Driver/ISAMP1_V-A )
  )
- ( /4FF7E59F/5092503A SM3637  R25 0.009R {Lib=R-US}
-  (    1 N-000115 )
+ ( /4FF7E59F/5092503A SM3637  R24 0.009R {Lib=R-US}
+  (    1 N-000112 )
   (    2 /Motor_Driver/HB1_VCC )
  )
  ( /4FF7E59F/509247BF TO252G2DS  Q8 MOSFET_P_OPENDOUS {Lib=MOSFET_P_OPENDOUS}
@@ -657,32 +637,32 @@
   (    G /Motor_Driver/HB1_NG2 )
   (    S GND )
  )
- ( /4FF7E59F/508F8EBD SM0402  R33 10 {Lib=R-US}
+ ( /4FF7E59F/508F8EBD SM0402  R32 10 {Lib=R-US}
   (    1 /Motor_Driver/HB1_NG2 )
-  (    2 /Controller/HB1_PWM2 )
+  (    2 /Motor_Driver/HB1_PWM2 )
  )
- ( /4FF7E59F/508F8EBB SM0402  R27 10 {Lib=R-US}
+ ( /4FF7E59F/508F8EBB SM0402  R26 10 {Lib=R-US}
   (    1 /Motor_Driver/HB1_PG2 )
   (    2 /Motor_Driver/HB1_PWM1 )
  )
- ( /4FF7E59F/508F8EB8 SM0402  R32 10 {Lib=R-US}
-  (    1 /Controller/HB1_PWM2 )
+ ( /4FF7E59F/508F8EB8 SM0402  R31 10 {Lib=R-US}
+  (    1 /Motor_Driver/HB1_PWM2 )
   (    2 /Motor_Driver/HB1_NG1 )
  )
- ( /4FF7E59F/508F8AA9 SM0402  R26 10 {Lib=R-US}
+ ( /4FF7E59F/508F8AA9 SM0402  R25 10 {Lib=R-US}
   (    1 /Motor_Driver/HB1_PWM1 )
   (    2 /Motor_Driver/HB1_PG1 )
  )
- ( /4FF7E59F/508F73F8 SM3637  R24 0.009R {Lib=R-US}
+ ( /4FF7E59F/508F73F8 SM3637  R23 0.009R {Lib=R-US}
   (    1 VCC )
-  (    2 N-000115 )
+  (    2 N-000112 )
  )
  ( /4FF7E59F/508F72E6 UMAX8  U6 MAX8040 {Lib=MAX8040}
   (    1 VCC )
   (    2 VCC )
   (    3 ? )
   (    4 GND )
-  (    5 N-000113 )
+  (    5 N-000110 )
   (    6 ? )
   (    7 ? )
   (    8 /Motor_Driver/HB1_VCC )
@@ -692,11 +672,15 @@
   (    G /Motor_Driver/HB1_PG1 )
   (    S /Motor_Driver/HB1_VCC )
  )
- ( /4FF7E59F/508F50EB 282857-4  J5 CONN_2 {Lib=CONN_4}
+ ( /4FF7E59F/508F50EB 282857-8  J4 CONN_8 {Lib=CONN_8}
   (    1 /Motor_Driver/M1_1 )
   (    2 /Motor_Driver/M1_1 )
   (    3 /Motor_Driver/M1_2 )
   (    4 /Motor_Driver/M1_2 )
+  (    5 /Motor_Driver/M2_1 )
+  (    6 /Motor_Driver/M2_1 )
+  (    7 /Motor_Driver/M2_2 )
+  (    8 /Motor_Driver/M2_2 )
  )
  ( /4FF7E59F/508F50BB TO252G2DS  Q9 MOSFET_N_OPENDOUS {Lib=MOSFET_N_OPENDOUS}
   (    D /Motor_Driver/M1_1 )
@@ -765,7 +749,7 @@ $component C6
  C?
  C1-1
 $endlist
-$component D14
+$component D12
  D?
  SO*
  SM*
@@ -789,12 +773,6 @@ $component LED1
  LED-1206
  LEDV
 $endlist
-$component D10
- D?
- SO*
- SM*
- SLP1006P2
-$endlist
 $component C16
  SM*
  C?
@@ -810,25 +788,25 @@ $component U3
  DDC*
  DSE*
 $endlist
+$component D5
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
 $component D7
  D?
  SO*
  SM*
  SLP1006P2
 $endlist
-$component D6
+$component D13
  D?
  SO*
  SM*
  SLP1006P2
 $endlist
-$component D15
- D?
- SO*
- SM*
- SLP1006P2
-$endlist
-$component D12
+$component D10
  D?
  SO*
  SM*
@@ -868,7 +846,7 @@ $component C11
  CP*
  SM*
 $endlist
-$component D11
+$component D9
  D?
  SO*
  SM*
@@ -907,31 +885,19 @@ $component C19
  C?
  C1-1
 $endlist
-$component D23
- D?
- SO*
- SM*
- SLP1006P2
-$endlist
 $component D21
  D?
  SO*
  SM*
  SLP1006P2
 $endlist
-$component D22
+$component D19
  D?
  SO*
  SM*
  SLP1006P2
 $endlist
 $component D20
- D?
- SO*
- SM*
- SLP1006P2
-$endlist
-$component D19
  D?
  SO*
  SM*
@@ -950,6 +916,18 @@ $component D17
  SLP1006P2
 $endlist
 $component D16
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component D15
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component D14
  D?
  SO*
  SM*
@@ -976,493 +954,484 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "/Motor Driver/HB2_PWM1" "HB2_PWM1"
- R37 2
+Net 1 "/Controller/HB2_PWM1" "HB2_PWM1"
+ R35 1
  U1 43
- R36 1
+ R36 2
 Net 2 "/Motor Driver/HB1_PWM1" "HB1_PWM1"
- R27 2
- R26 1
  U1 41
-Net 3 "/Controller/USB_RX" "USB_RX"
- U1 17
+ R25 1
+ R26 2
+Net 3 "/USB/USB_RX" "USB_RX"
  U4 1
-Net 4 "/Controller/HB1_PWM2" "HB1_PWM2"
+ U1 17
+Net 4 "/Motor Driver/HB1_PWM2" "HB1_PWM2"
+ R32 2
  U1 42
- R33 2
- R32 1
+ R31 1
 Net 5 "/USB/USB_TX" "USB_TX"
- U4 5
  U1 16
-Net 6 "/USB/USB_~CTS~" "USB_~CTS~"
+ U4 5
+Net 6 "/Controller/USB_~CTS~" "USB_~CTS~"
  U1 14
  U4 3
-Net 7 "/USB/USB_~RTS~" "USB_~RTS~"
+Net 7 "/Controller/USB_~RTS~" "USB_~RTS~"
  U1 15
  U4 11
 Net 8 "/Controller/HB2_ISENSE" "HB2_ISENSE"
  U7 1
  U1 27
- R40 1
-Net 9 "/Motor Driver/HB1_ISENSE" "HB1_ISENSE"
+ R39 1
+Net 9 "/Controller/HB1_ISENSE" "HB1_ISENSE"
  U5 1
- R30 1
+ R29 1
  U1 26
-Net 10 "/Controller/HB2_PWM2" "HB2_PWM2"
- R42 1
- R43 2
+Net 10 "/Motor Driver/HB2_PWM2" "HB2_PWM2"
+ R42 2
+ R41 1
  U1 44
-Net 11 "GND2" "GND2"
- J1 1
- Q1 D
- D5 2
-Net 12 "VCC" "VCC"
- R24 1
- R8 1
+Net 11 "VDDIO" "VDDIO"
+ Q3 G
+ D10 2
+ J2 2
+ D11 1
+ R18 1
+Net 12 "GNDIN" "GNDIN"
+ J2 1
+ Q3 D
+ D11 2
+Net 13 "/Power Input Stage/Q4B" "Q4B"
+ R18 2
+ R20 2
+ Q5 B
+Net 14 "VCC" "VCC"
+ J1 6
+ J1 5
+ J1 7
+ J1 8
+ U2 2
+ R17 2
+ C10 1
+ U8 1
+ U8 2
  R9 2
+ C9 1
+ D6 1
+ R8 1
+ R33 1
  U6 2
  U6 1
+ R23 1
+Net 15 "VDDA33" "VDDA33"
+ FB1 2
+ U1 13
+Net 16 "" ""
+ R16 1
+ LED2 2
+Net 17 "" ""
+ LED1 2
+ R15 1
+Net 18 "VDD5" "VDD5"
+ U3 3
+ JP4 7
+ C15 1
+ LED1 1
+ U4 20
  D5 1
- C9 1
- J1 4
- J1 3
- J1 2
- R18 2
- U2 2
- C10 1
-Net 13 "VCC2" "VCC2"
- J2 4
- U8 2
- D9 1
- J2 3
- R34 1
- R11 1
- U8 1
- J2 2
-Net 14 "VDD5" "VDD5"
- U5 8
- D14 1
- JP1 12
+ U3 1
  U7 8
  D12 1
- U4 20
- D7 1
- C18 1
+ JP1 12
  C17 1
- JP5 1
- JP5 2
+ U5 8
+ D10 1
+ C18 1
  JP5 3
- LED1 1
- U3 3
- U3 1
- C15 1
- JP4 7
-Net 15 "VBUS" "VBUS"
- D14 2
- FB2 1
- R20 1
-Net 16 "" ""
- LED2 2
- R17 1
-Net 17 "VDD33" "VDD33"
- C16 1
- U3 5
- R23 2
- U1 64
- SW1 2
- U4 4
- C1 1
- SW2 2
- SW4 2
- SW3 2
- JP2 1
- C7 1
- C4 1
- C2 1
- C3 1
- C5 1
- LED2 1
- JP1 11
- U1 32
- C6 1
- JP3 1
- FB1 1
-Net 18 "GND3" "GND3"
- J2 1
- D9 2
- Q2 D
-Net 19 "/Power Input Stage/Q4B" "Q4B"
- R21 2
- R19 2
- Q5 B
-Net 20 "/Power Input Stage/Q5B" "Q5B"
- R20 2
- Q6 B
- R22 2
-Net 21 "/Power Input Stage/VREG_EN_D" "VREG_EN_D"
+ JP5 2
+ JP5 1
+Net 19 "/Power Input Stage/VREG_EN_D" "VREG_EN_D"
  Q4 D
  R9 1
-Net 22 "VDDIO" "VDDIO"
- D13 1
+Net 20 "/Power Input Stage/Q5B" "Q5B"
+ R21 2
+ R19 2
+ Q6 B
+Net 21 "VBUS" "VBUS"
  R19 1
  D12 2
- Q3 G
- J3 2
-Net 23 "" ""
- LED1 2
- R16 1
-Net 24 "GND" "GND"
- R7 1
- U1 12
- C6 2
- JP4 8
- C7 2
- R5 1
- C1 2
- JP2 3
- R6 1
- JP3 3
- U1 31
- C2 2
- C3 2
- JP1 13
- C5 2
- U4 26
- U4 18
- U4 25
- C19 2
- J4 4
- J4 5
- C17 2
- C18 2
- U4 7
- U4 21
- Q9 S
- C23 2
- C22 2
- D18 2
- D19 2
- D22 2
- D23 2
- Q10 S
- Q14 S
- U7 4
- C20 2
+ FB2 1
+Net 22 "VDD33" "VDD33"
+ JP3 1
+ C5 1
+ U1 64
+ U4 4
+ C3 1
+ C4 1
+ C2 1
+ R22 2
+ C7 1
+ C6 1
+ JP1 11
+ U3 5
+ SW1 2
+ C16 1
+ C1 1
+ SW4 2
+ JP2 1
+ SW3 2
+ U1 32
+ LED2 1
+ FB1 1
+ SW2 2
+Net 23 "GND2" "GND2"
+ D6 2
+ J1 4
+ J1 1
+ J1 2
+ Q2 D
+ J1 3
+ Q1 D
+Net 24 "+5V" "+5V"
+ L1 2
+ C11 1
+ C12 1
+ R10 2
+ D5 2
+Net 25 "/Power Input Stage/COMP" "COMP"
+ R11 1
+ C14 1
+Net 26 "GND" "GND"
  Q13 S
+ U6 4
+ C20 2
  C21 2
+ Q14 S
+ U7 5
+ U7 4
+ D16 2
+ Q9 S
+ D20 2
+ U5 5
+ Q10 S
+ D21 2
+ D17 2
+ C22 2
+ C23 2
+ C7 2
+ C6 2
+ C1 2
+ R5 1
+ R6 1
+ JP2 3
+ JP4 8
+ JP3 3
+ C3 2
+ U5 4
+ U5 3
  U8 4
  U7 3
+ C2 2
+ U1 31
+ JP1 13
+ U1 12
  U1 63
- U7 5
- U5 4
- U6 4
- U5 3
- U5 5
+ C4 2
+ C5 2
+ R7 1
  R14 1
- R15 1
  R13 1
- D6 2
- C16 2
- C15 2
- U3 2
- R17 2
- R16 2
- JP6 1
- D2 2
- D4 2
- D1 2
- D3 2
- JP6 2
- JP6 3
- R22 1
- Q6 E
- C13 2
- D8 2
- Q5 E
- C14 2
- P1 1
- C10 2
- U2 11
- U2 9
  R21 1
+ Q6 E
+ Q5 E
+ R20 1
+ D7 2
+ R12 1
+ D4 2
+ D2 2
+ C17 2
+ C18 2
  Q2 S
- D10 2
+ U4 7
+ U4 21
+ U2 9
  C9 2
  C12 2
- D11 2
+ D9 2
  C11 2
  Q3 S
  Q1 S
- C4 2
-Net 25 "/Power Input Stage/COMP" "COMP"
- R12 1
- C14 1
-Net 26 "VDDA33" "VDDA33"
- FB1 2
- U1 13
-Net 27 "GNDIN" "GNDIN"
- Q3 D
- J3 1
- D13 2
-Net 28 "+5V" "+5V"
- C11 1
- L1 2
- C12 1
- D7 2
- R10 2
-Net 30 "/Power Input Stage/VREG_RT" "VREG_RT"
- U2 5
+ U2 11
+ C10 2
+ P1 1
+ C14 2
+ C13 2
+ D8 2
  R15 2
-Net 31 "/Power Input Stage/VREG_BOOT" "VREG_BOOT"
- C8 1
+ R16 2
+ U3 2
+ C15 2
+ C16 2
+ JP6 2
+ C19 2
+ JP6 3
+ JP6 1
+ J3 4
+ D3 2
+ J3 5
+ D1 2
+ U4 18
+ U4 26
+ U4 25
+Net 28 "/Power Input Stage/VREG_BOOT" "VREG_BOOT"
  U2 1
-Net 32 "/Power Input Stage/VREG_SS" "VREG_SS"
- U2 4
- C13 1
-Net 33 "/Power Input Stage/Q1G" "Q1G"
- Q1 G
+ C8 1
+Net 29 "/Power Input Stage/VREG_RT" "VREG_RT"
+ U2 5
+ R14 2
+Net 30 "/Power Input Stage/VIN_GATE" "VIN_GATE"
+ Q2 G
  R8 2
- D6 1
-Net 34 "/Power Input Stage/VREG_PH" "VREG_PH"
- C8 2
- D8 1
+ D7 1
+ Q1 G
+Net 31 "/Power Input Stage/VREG_PH" "VREG_PH"
  U2 10
  L1 1
-Net 35 "/Power Input Stage/VREG_VSENSE" "VREG_VSENSE"
+ C8 2
+ D8 1
+Net 32 "/Power Input Stage/VREG_VSENSE" "VREG_VSENSE"
  U2 7
- R10 1
- R14 2
-Net 36 "/Power Input Stage/VREG_EN_S" "VREG_EN_S"
  R13 2
- D15 2
- U2 3
- Q4 S
- D11 1
-Net 37 "/Power Input Stage/VREG_COMP" "VREG_COMP"
+ R10 1
+Net 33 "/Power Input Stage/VREG_EN_S" "VREG_EN_S"
  R12 2
- U2 8
-Net 39 "/Power Input Stage/Q2G" "Q2G"
- D10 1
- Q2 G
+ D13 2
+ Q4 S
+ U2 3
+ D9 1
+Net 34 "/Power Input Stage/VREG_COMP" "VREG_COMP"
  R11 2
-Net 40 "/Power Input Stage/Q6G" "Q6G"
+ U2 8
+Net 35 "/Power Input Stage/VREG_SS" "VREG_SS"
+ C13 1
+ U2 4
+Net 37 "/Power Input Stage/Q6G" "Q6G"
  Q4 G
- D15 1
- R18 1
- Q6 C
+ R17 1
  Q5 C
-Net 41 "/Controller/IND1" "IND1"
- JP4 1
+ D13 1
+ Q6 C
+Net 38 "/Controller/IND1" "IND1"
  U1 53
-Net 42 "/Controller/SPI1_MOSI" "SPI1_MOSI"
+ JP4 1
+Net 39 "/Controller/SPI1_MOSI" "SPI1_MOSI"
  R4 1
- U1 23
  D4 1
-Net 44 "/Controller/RC2" "RC2"
- JP1 9
- U1 40
+ U1 23
+Net 41 "/Controller/RC2" "RC2"
  U1 30
-Net 45 "/Controller/SPI1_SCK" "SPI1_SCK"
- R2 1
+ U1 40
+ JP1 9
+Net 42 "/Controller/SPI1_SCK" "SPI1_SCK"
  U1 21
+ R2 1
  D2 1
-Net 46 "/Controller/SPI1_~SS~" "SPI1_~SS~"
+Net 43 "/Controller/SPI1_~SS~" "SPI1_~SS~"
  U1 20
- R1 1
  D1 1
-Net 47 "/Controller/M2_B1" "M2_B1"
- U1 24
+ R1 1
+Net 44 "/Controller/M2_B1" "M2_B1"
  SW3 1
-Net 48 "/Controller/M2_B2" "M2_B2"
- SW4 1
+ U1 24
+Net 45 "/Controller/M2_B2" "M2_B2"
  U1 25
-Net 49 "/Controller/M1_B2" "M1_B2"
- U1 19
+ SW4 1
+Net 46 "/Controller/M1_B2" "M1_B2"
  SW2 1
-Net 50 "/Controller/M1_B1" "M1_B1"
+ U1 19
+Net 47 "/Controller/M1_B1" "M1_B1"
  SW1 1
  U1 18
-Net 51 "/Controller/IND2" "IND2"
- JP4 2
+Net 48 "/Controller/IND2" "IND2"
  U1 45
-Net 52 "/Controller/RC1" "RC1"
+ JP4 2
+Net 49 "/Controller/RC1" "RC1"
  U1 29
  U1 39
  JP1 10
-Net 55 "/Controller/EXT_MISO" "EXT_MISO"
- R3 2
- JP1 3
-Net 56 "/Controller/EXT_~SS~" "EXT_~SS~"
- JP1 1
- R1 2
-Net 57 "/Controller/EXT_MOSI" "EXT_MOSI"
+Net 52 "/Controller/EXT_MOSI" "EXT_MOSI"
  JP1 4
  R4 2
-Net 58 "/Controller/EXT_SCK" "EXT_SCK"
- JP1 2
+Net 53 "/Controller/EXT_MISO" "EXT_MISO"
+ R3 2
+ JP1 3
+Net 54 "/Controller/EXT_~SS~" "EXT_~SS~"
+ JP1 1
+ R1 2
+Net 55 "/Controller/EXT_SCK" "EXT_SCK"
  R2 2
-Net 59 "/Controller/SPI1_MISO" "SPI1_MISO"
+ JP1 2
+Net 56 "/Controller/SPI1_MISO" "SPI1_MISO"
+ D3 1
  R3 1
  U1 22
- D3 1
-Net 60 "/Controller/SDA" "SDA"
+Net 57 "/Controller/SDA" "SDA"
  JP1 5
  U1 62
-Net 61 "/Controller/SCL" "SCL"
+Net 58 "/Controller/SCL" "SCL"
  JP1 6
  U1 61
-Net 62 "/Controller/U1RX" "U1RX"
- U1 59
+Net 59 "/Controller/U1RX" "U1RX"
  JP1 7
-Net 64 "/Controller/U1TX" "U1TX"
+ U1 59
+Net 61 "/Controller/U1TX" "U1TX"
  U1 58
  JP1 8
-Net 74 "/Controller/QE2B" "QE2B"
- U1 38
+Net 71 "/Controller/QE2B" "QE2B"
  JP4 6
-Net 75 "/Controller/QE1B" "QE1B"
+ U1 38
+Net 72 "/Controller/QE1B" "QE1B"
  JP4 5
  U1 55
-Net 76 "/Controller/QE2A" "QE2A"
+Net 73 "/Controller/QE2A" "QE2A"
  U1 37
  JP4 4
-Net 77 "/Controller/QE1A" "QE1A"
+Net 74 "/Controller/QE1A" "QE1A"
  U1 50
  JP4 3
-Net 78 "/Controller/POT2" "POT2"
+Net 75 "/Controller/POT2" "POT2"
+ U1 9
  JP3 2
  R6 2
- U1 9
-Net 79 "/Controller/POT1" "POT1"
- U1 8
+Net 76 "/Controller/POT1" "POT1"
  R5 2
+ U1 8
  JP2 2
-Net 90 "/Controller/BOOT0" "BOOT0"
+Net 87 "/Controller/BOOT0" "BOOT0"
  U1 60
  R7 2
-Net 92 "/Motor Driver/HB2_VCC" "HB2_VCC"
- Q11 S
- Q12 S
- U8 8
- D21 1
- D20 1
- C22 1
- C23 1
+Net 91 "/Motor Driver/HB2_PG1" "HB2_PG1"
+ Q11 G
  R35 2
-Net 95 "/Motor Driver/HB1_VCC" "HB1_VCC"
+Net 92 "/Motor Driver/HB1_VCC" "HB1_VCC"
  Q8 S
+ D14 1
+ D15 1
+ C21 1
  C20 1
- R25 2
  U6 8
  Q7 S
- D17 1
- D16 1
- C21 1
-Net 96 "" ""
- R39 1
+ R24 2
+Net 93 "" ""
  U8 5
-Net 97 "" ""
- R34 2
- R35 1
-Net 98 "/Motor Driver/M2_1" "M2_1"
- Q11 D
- Q13 D
- D22 1
- D20 2
- J6 2
- J6 1
-Net 99 "/Motor Driver/HB2_NG2" "HB2_NG2"
- Q14 G
- R43 1
-Net 100 "/Motor Driver/HB2_PG2" "HB2_PG2"
- R37 1
- Q12 G
-Net 101 "/Motor Driver/HB2_NG1" "HB2_NG1"
- Q13 G
- R42 2
-Net 102 "/Motor Driver/HB2_PG1" "HB2_PG1"
- R36 2
- Q11 G
-Net 103 "/Motor Driver/M1_1" "M1_1"
- J5 2
- Q9 D
- J5 1
- Q7 D
+ R38 1
+Net 94 "/Motor Driver/HB2_VCC" "HB2_VCC"
+ Q11 S
+ D19 1
  D18 1
- D16 2
-Net 104 "/Motor Driver/M2_2" "M2_2"
- D23 1
- D21 2
+ C22 1
+ C23 1
+ U8 8
+ R34 2
+ Q12 S
+Net 95 "" ""
+ R33 2
+ R34 1
+Net 96 "/Motor Driver/M2_1" "M2_1"
+ J4 5
+ D18 2
+ Q13 D
+ Q11 D
+ J4 6
+ D20 1
+Net 97 "/Motor Driver/HB2_NG2" "HB2_NG2"
+ Q14 G
+ R42 1
+Net 98 "/Motor Driver/HB2_PG2" "HB2_PG2"
+ Q12 G
+ R36 1
+Net 99 "/Motor Driver/HB2_NG1" "HB2_NG1"
+ R41 2
+ Q13 G
+Net 100 "/Motor Driver/M1_1" "M1_1"
+ D14 2
+ D16 1
+ Q7 D
+ Q9 D
+ J4 1
+ J4 2
+Net 101 "/Motor Driver/M2_2" "M2_2"
+ D19 2
+ D21 1
+ J4 8
+ J4 7
  Q14 D
  Q12 D
- J6 3
- J6 4
-Net 105 "/Motor Driver/HB1_PG2" "HB1_PG2"
- R27 1
- Q8 G
-Net 106 "/Motor Driver/HB1_NG2" "HB1_NG2"
+Net 102 "/Motor Driver/HB1_NG2" "HB1_NG2"
+ R32 1
  Q10 G
- R33 1
-Net 107 "/Motor Driver/ISAMP1_V-A" "ISAMP1_V-A"
- R29 2
- R31 2
- U5 6
-Net 108 "/Motor Driver/ISAMP1_OUTA" "ISAMP1_OUTA"
- R28 1
- R31 1
- U5 7
-Net 110 "/Motor Driver/HB1_NG1" "HB1_NG1"
- R32 2
- Q9 G
-Net 111 "/Motor Driver/M1_2" "M1_2"
- D17 2
- Q10 D
- Q8 D
- J5 4
- J5 3
- D19 1
-Net 113 "" ""
- R29 1
- U6 5
-Net 115 "" ""
- R25 1
- R24 2
-Net 116 "/Motor Driver/HB1_PG1" "HB1_PG1"
- Q7 G
- R26 2
-Net 117 "/Motor Driver/ISAMP2_OUTA" "ISAMP2_OUTA"
- R38 1
- U7 7
- R41 1
-Net 118 "/Motor Driver/ISAMP2_V-B" "ISAMP2_V-B"
- R40 2
- U7 2
- R38 2
-Net 119 "/Motor Driver/ISAMP1_V-B" "ISAMP1_V-B"
- U5 2
+Net 103 "/Motor Driver/HB1_PG2" "HB1_PG2"
+ Q8 G
+ R26 1
+Net 104 "/Motor Driver/ISAMP1_V-A" "ISAMP1_V-A"
  R28 2
  R30 2
-Net 120 "/Motor Driver/ISAMP2_V-A" "ISAMP2_V-A"
- U7 6
+ U5 6
+Net 105 "/Motor Driver/HB1_PG1" "HB1_PG1"
+ R25 2
+ Q7 G
+Net 106 "/Motor Driver/HB1_NG1" "HB1_NG1"
+ Q9 G
+ R31 2
+Net 107 "/Motor Driver/M1_2" "M1_2"
+ J4 3
+ J4 4
+ D15 2
+ D17 1
+ Q8 D
+ Q10 D
+Net 110 "" ""
+ R28 1
+ U6 5
+Net 112 "" ""
+ R24 1
+ R23 2
+Net 113 "/Motor Driver/ISAMP2_OUTA" "ISAMP2_OUTA"
+ R40 1
+ U7 7
+ R37 1
+Net 114 "/Motor Driver/ISAMP2_V-B" "ISAMP2_V-B"
+ R37 2
+ U7 2
  R39 2
- R41 2
-Net 121 "" ""
+Net 115 "/Motor Driver/ISAMP1_OUTA" "ISAMP1_OUTA"
+ R30 1
+ U5 7
+ R27 1
+Net 116 "/Motor Driver/ISAMP2_V-A" "ISAMP2_V-A"
+ U7 6
+ R40 2
+ R38 2
+Net 117 "/Motor Driver/ISAMP1_V-B" "ISAMP1_V-B"
+ U5 2
+ R29 2
+ R27 2
+Net 118 "" ""
+ R22 1
  LED3 1
- R23 1
-Net 122 "" ""
- J4 1
+Net 119 "" ""
  FB2 2
-Net 123 "/USB/TXRXLED" "TXRXLED"
+ J3 1
+Net 120 "/USB/TXRXLED" "TXRXLED"
  U4 23
  LED3 2
-Net 124 "" ""
- C19 1
+Net 121 "" ""
  U4 17
-Net 125 "/USB/USB_DP" "USB_DP"
+ C19 1
+Net 122 "/USB/USB_DP" "USB_DP"
  U4 15
- J4 3
-Net 126 "/USB/USB_DM" "USB_DM"
- J4 2
+ J3 3
+Net 123 "/USB/USB_DM" "USB_DM"
+ J3 2
  U4 16
 }
 #End
