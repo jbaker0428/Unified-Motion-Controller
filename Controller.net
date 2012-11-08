@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  11/8/2012 5:55:35 AM
+# EESchema Netlist Version 1.1 created  11/8/2012 7:11:33 AM
 (
  ( /4FF7E232/509B5ABB SM0402  R2 200 {Lib=R-US}
   (    1 /Controller/SPI1_SCK )
@@ -246,7 +246,7 @@
   (    1 VDD5 )
   (    2 GND )
  )
- ( /4FF7DEBF/50892642 $noname  U3 TLV70033 {Lib=TLV700XX}
+ ( /4FF7DEBF/50892642 R-PDSO-G5  U3 TLV70033 {Lib=TLV700XX}
   (    1 VDD5 )
   (    2 GND )
   (    3 VDD5 )

@@ -1,4 +1,4 @@
-update=11/8/2012 3:55:00 AM
+update=11/8/2012 6:14:51 AM
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -111,3 +111,4 @@ LibName12=cap-pan
 LibName13=ipc-7351-capacitor
 LibName14=opendous
 LibName15=capacitors
+LibName16=ti
