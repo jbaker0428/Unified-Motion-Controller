@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  11/8/2012 2:47:56 PM
+# EESchema Netlist Version 1.1 created  11/8/2012 3:35:30 PM
 (
  ( /4FF7E232/509B5ABB SM0402  R2 200 {Lib=R-US}
   (    1 /Controller/SPI1_SCK )
@@ -541,7 +541,7 @@
   (    7 ? )
   (    8 /Motor_Driver/HB2_VCC )
  )
- ( /4FF7E59F/50926936 SM3637  R33 0.009R {Lib=R-US}
+ ( /4FF7E59F/50926936 r_3637  R33 0.009R {Lib=R-US}
   (    1 VCC )
   (    2 N-000094 )
  )
@@ -571,7 +571,7 @@
   (    G /Motor_Driver/HB2_PG2 )
   (    S /Motor_Driver/HB2_VCC )
  )
- ( /4FF7E59F/5092692E SM3637  R34 0.009R {Lib=R-US}
+ ( /4FF7E59F/5092692E r_3637  R34 0.009R {Lib=R-US}
   (    1 N-000094 )
   (    2 /Motor_Driver/HB2_VCC )
  )
@@ -627,7 +627,7 @@
   (    1 N-000110 )
   (    2 /Motor_Driver/ISAMP1_V-A )
  )
- ( /4FF7E59F/5092503A SM3637  R24 0.009R {Lib=R-US}
+ ( /4FF7E59F/5092503A r_3637  R24 0.009R {Lib=R-US}
   (    1 N-000112 )
   (    2 /Motor_Driver/HB1_VCC )
  )
@@ -657,7 +657,7 @@
   (    1 /Controller/HB1_PWM1 )
   (    2 /Motor_Driver/HB1_PG1 )
  )
- ( /4FF7E59F/508F73F8 SM3637  R23 0.009R {Lib=R-US}
+ ( /4FF7E59F/508F73F8 r_3637  R23 0.009R {Lib=R-US}
   (    1 VCC )
   (    2 N-000112 )
  )
