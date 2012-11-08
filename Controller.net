@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  11/8/2012 3:02:31 AM
+# EESchema Netlist Version 1.1 created  11/8/2012 4:06:07 AM
 (
  ( /4FF7E232/509B5ABB SM0402  R42 200 {Lib=R-US}
   (    1 /Controller/SPI1_SCK )
@@ -448,7 +448,7 @@
   (    1 VDD5 )
   (    2 GND )
  )
- ( /4FF7E68A/507E800F $noname  U3 FT232RL {Lib=FT232RL}
+ ( /4FF7E68A/507E800F SSOP28  U3 FT232RL {Lib=FT232RL}
   (    1 /Controller/USB_RX )
   (    2 ? )
   (    3 /USB/USB_~CTS~ )
