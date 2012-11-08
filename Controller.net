@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  11/8/2012 5:20:05 AM
+# EESchema Netlist Version 1.1 created  11/8/2012 5:55:35 AM
 (
  ( /4FF7E232/509B5ABB SM0402  R2 200 {Lib=R-US}
   (    1 /Controller/SPI1_SCK )
@@ -199,25 +199,25 @@
   (    1 VDD33 )
   (    2 GND )
  )
+ ( /4FF7DEBF/509B8A0E SM0603  LED2 G {Lib=LED}
+  (    1 VDD33 )
+  (    2 N-000024 )
+ )
  ( /4FF7DEBF/50928582 282857-4  J2 CONN_4 {Lib=CONN_4}
   (    1 GND3 )
   (    2 VCC2 )
   (    3 VCC2 )
   (    4 VCC2 )
  )
- ( /4FF7DEBF/5092826C $noname  R17 R-US {Lib=R-US}
-  (    1 N-000016 )
+ ( /4FF7DEBF/5092826C SM0805  R17 120 {Lib=R-US}
+  (    1 N-000024 )
   (    2 GND )
  )
- ( /4FF7DEBF/50928268 $noname  LED2 LED {Lib=LED}
-  (    1 VDD33 )
-  (    2 N-000016 )
- )
- ( /4FF7DEBF/50928255 $noname  R16 R-US {Lib=R-US}
+ ( /4FF7DEBF/50928255 SM0805  R16 330 {Lib=R-US}
   (    1 N-000025 )
   (    2 GND )
  )
- ( /4FF7DEBF/5092823A $noname  LED1 LED {Lib=LED}
+ ( /4FF7DEBF/5092823A SM0603  LED1 G {Lib=LED}
   (    1 VDD5 )
   (    2 N-000025 )
  )
@@ -420,11 +420,11 @@
   (    1 GNDIN )
   (    2 VDDIO )
  )
- ( /4FF7E68A/50891B9D $noname  R23 R-US {Lib=R-US}
+ ( /4FF7E68A/50891B9D SM0805  R23 120 {Lib=R-US}
   (    1 N-000121 )
   (    2 VDD33 )
  )
- ( /4FF7E68A/50891B4A $noname  LED3 LED {Lib=LED}
+ ( /4FF7E68A/50891B4A SM0603  LED3 Y {Lib=LED}
   (    1 N-000121 )
   (    2 /USB/TXRXLED )
  )
@@ -999,249 +999,249 @@ Net 9 "/Controller/HB2_PWM2" "HB2_PWM2"
  R42 1
  R43 2
 Net 10 "/Motor Driver/HB1_PWM2" "HB1_PWM2"
- U1 42
- R33 2
  R32 1
+ R33 2
+ U1 42
 Net 11 "GND2" "GND2"
  D5 2
- Q1 D
  J1 1
-Net 12 "+5V" "+5V"
- D7 2
- C11 1
- C12 1
- R10 2
- L1 2
-Net 13 "VCC2" "VCC2"
- U8 1
- U8 2
- R11 1
- D9 1
- J2 3
- J2 2
- R34 1
- J2 4
-Net 14 "VCC" "VCC"
- C10 1
- R18 2
- D5 1
- C9 1
- R8 1
- U6 2
- U6 1
- R24 1
+ Q1 D
+Net 12 "VCC" "VCC"
  U2 2
- R9 2
+ U6 1
  J1 4
  J1 3
  J1 2
-Net 15 "GND3" "GND3"
- J2 1
- Q2 D
- D9 2
-Net 16 "" ""
- LED2 2
- R17 1
-Net 17 "GND" "GND"
- JP6 1
- JP6 2
- JP6 3
- D2 2
- J4 5
- J4 4
- D4 2
+ R24 1
+ U6 2
+ C10 1
+ C9 1
+ D5 1
+ R8 1
+ R18 2
+ R9 2
+Net 13 "+5V" "+5V"
+ L1 2
+ R10 2
+ D7 2
+ C12 1
+ C11 1
+Net 14 "GND" "GND"
  C19 2
  D1 2
  U4 25
  D3 2
+ D4 2
+ JP6 1
+ JP6 2
+ JP6 3
+ C18 2
+ U4 7
+ C17 2
+ J4 5
+ J4 4
+ D2 2
  JP1 13
  U4 18
  U4 26
- R7 1
  U6 4
  C1 2
  U5 4
  U7 5
  U7 3
+ U5 3
  U1 31
  U1 12
- C20 2
- D17 2
- U7 4
+ R7 1
  C22 2
  C23 2
- D18 2
  Q9 S
+ U7 4
  Q14 S
- D21 2
- D22 2
- Q13 S
- C21 2
- Q10 S
- U5 5
  U8 4
- U5 3
+ U5 5
+ Q10 S
+ C21 2
+ Q13 S
+ D22 2
+ D21 2
+ D18 2
+ C20 2
+ D17 2
  C5 2
+ C4 2
+ C2 2
  U1 63
+ JP2 3
  JP4 8
  R5 1
  JP3 3
  R6 1
- JP2 3
  C7 2
  C6 2
  C3 2
- C2 2
- C4 2
- Q6 E
- R22 1
- D10 2
  Q1 S
- R14 1
- Q2 S
- C14 2
- R13 1
- C16 2
- D6 2
- R15 1
- C15 2
- R21 1
- R16 2
- U4 7
- C11 2
- U2 11
- C10 2
- D8 2
- C13 2
- R17 2
- Q5 E
- C18 2
- U2 9
- C17 2
- Q3 S
- U4 21
- U3 2
- P1 1
  C9 2
  C12 2
  D11 2
-Net 18 "VDD33" "VDD33"
- JP3 1
- U3 5
- SW1 2
- JP2 1
- U1 64
- SW3 2
- FB1 1
- SW4 2
+ C11 2
+ Q3 S
+ P1 1
+ Q5 E
+ C16 2
+ R13 1
+ R15 1
+ R14 1
+ Q2 S
+ R16 2
+ R17 2
+ U3 2
+ C15 2
+ D8 2
+ D10 2
+ C13 2
+ C14 2
+ U2 11
+ U2 9
+ C10 2
+ U4 21
+ D6 2
+ Q6 E
+ R21 1
+ R22 1
+Net 15 "GND3" "GND3"
+ D9 2
+ Q2 D
+ J2 1
+Net 16 "VCC2" "VCC2"
+ J2 2
+ U8 2
+ R11 1
+ D9 1
+ J2 4
+ U8 1
+ J2 3
+ R34 1
+Net 17 "VDD33" "VDD33"
  SW2 2
- C16 1
- LED2 1
  C7 1
+ SW4 2
+ C4 1
  C6 1
- C1 1
  JP1 11
- U4 4
+ U1 64
+ JP2 1
+ SW3 2
+ JP3 1
+ C5 1
  C2 1
  C3 1
- U1 32
- C5 1
- C4 1
  R23 2
-Net 19 "/Power Input Stage/Q4B" "Q4B"
- Q5 B
- R21 2
- R19 2
-Net 20 "/Power Input Stage/Q5B" "Q5B"
- Q6 B
- R20 2
- R22 2
-Net 21 "/Power Input Stage/VREG_EN_D" "VREG_EN_D"
- R9 1
- Q4 D
-Net 22 "VBUS" "VBUS"
+ C16 1
+ C1 1
+ U3 5
+ U1 32
+ FB1 1
+ U4 4
+ LED2 1
+ SW1 2
+Net 18 "VBUS" "VBUS"
  FB2 1
  R20 1
-Net 23 "VDDIO" "VDDIO"
- R19 1
- D12 2
+Net 19 "/Power Input Stage/Q5B" "Q5B"
+ Q6 B
+ R22 2
+ R20 2
+Net 20 "/Power Input Stage/VREG_EN_D" "VREG_EN_D"
+ R9 1
+ Q4 D
+Net 21 "/Power Input Stage/Q4B" "Q4B"
+ Q5 B
+ R19 2
+ R21 2
+Net 22 "VDDIO" "VDDIO"
  D13 1
- Q3 G
  J3 2
-Net 24 "VDD5" "VDD5"
- C17 1
+ R19 1
+ Q3 G
+ D12 2
+Net 23 "VDD5" "VDD5"
  JP1 12
+ C17 1
+ C18 1
+ U4 20
  U5 8
  U7 8
- C15 1
- U4 20
- JP4 7
- D7 1
- LED1 1
- C18 1
- D12 1
- JP5 1
- JP5 2
- JP5 3
  U3 3
  U3 1
+ C15 1
+ JP5 3
+ JP5 2
+ JP5 1
+ D7 1
+ JP4 7
+ LED1 1
+ D12 1
+Net 24 "" ""
+ R17 1
+ LED2 2
 Net 25 "" ""
  R16 1
  LED1 2
 Net 26 "/Power Input Stage/COMP" "COMP"
  R12 1
  C14 1
-Net 27 "VDDA33" "VDDA33"
- U1 13
- FB1 2
-Net 28 "GNDIN" "GNDIN"
- Q3 D
+Net 27 "GNDIN" "GNDIN"
  J3 1
  D13 2
+ Q3 D
+Net 28 "VDDA33" "VDDA33"
+ U1 13
+ FB1 2
 Net 30 "/Power Input Stage/VREG_RT" "VREG_RT"
- R15 2
  U2 5
+ R15 2
 Net 31 "/Power Input Stage/VREG_BOOT" "VREG_BOOT"
- C8 1
  U2 1
+ C8 1
 Net 32 "/Power Input Stage/VREG_SS" "VREG_SS"
  U2 4
  C13 1
 Net 33 "/Power Input Stage/Q1G" "Q1G"
+ Q1 G
  D6 1
  R8 2
- Q1 G
 Net 34 "/Power Input Stage/VREG_PH" "VREG_PH"
+ D8 1
  U2 10
  C8 2
- D8 1
  L1 1
 Net 35 "/Power Input Stage/VREG_VSENSE" "VREG_VSENSE"
+ U2 7
  R14 2
  R10 1
- U2 7
 Net 36 "/Power Input Stage/VREG_EN_S" "VREG_EN_S"
- D14 2
- U2 3
- Q4 S
  R13 2
+ Q4 S
+ U2 3
  D11 1
+ D14 2
 Net 37 "/Power Input Stage/VREG_COMP" "VREG_COMP"
- U2 8
  R12 2
+ U2 8
 Net 39 "/Power Input Stage/Q2G" "Q2G"
  D10 1
- R11 2
  Q2 G
+ R11 2
 Net 40 "/Power Input Stage/Q6G" "Q6G"
- Q4 G
- Q5 C
- R18 1
  D14 1
+ Q5 C
  Q6 C
+ Q4 G
+ R18 1
 Net 41 "/Controller/IND1" "IND1"
- JP4 1
  U1 53
+ JP4 1
 Net 42 "/Controller/SPI1_MOSI" "SPI1_MOSI"
  U1 23
  R4 1
