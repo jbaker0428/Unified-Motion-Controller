@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  11/8/2012 2:50:32 AM
+# EESchema Netlist Version 1.1 created  11/8/2012 3:02:31 AM
 (
  ( /4FF7E232/509B5ABB SM0402  R42 200 {Lib=R-US}
   (    1 /Controller/SPI1_SCK )
@@ -80,7 +80,7 @@
   (    1 GND )
   (    2 /Controller/BOOT0 )
  )
- ( /4FF7E232/507E8399 c_0805  C13 4.7uF {Lib=C}
+ ( /4FF7E232/507E8399 c_1206  C13 4.7uF {Lib=C}
   (    1 VDD33 )
   (    2 GND )
  )
