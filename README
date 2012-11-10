@@ -1,0 +1,17 @@
+The Unified Motion Controller is more than just another serial interface motor controller. The Unified Motion Controller has a pair of discrete H-bridge drivers to run not one but two motors at up to 45A each (initial figure, exact specifications TBD). Connections are provided to connect a quadrature encoder for each motor, which can be used alongside onboard motor current sensing circuitry for full closed-loop PID control.
+
+Control methods supported:
+-Analog voltages up to 3.3V (potentiometers, DAC outputs, etc)
+-Buttons located on the board
+-I2C
+-RC pulse
+-SPI
+-UART
+-USB
+
+Input voltages up to 40V are supported. When running motors off of 6V or less, a separate 5V logic supply must also be given.
+
+SOFTWARE USED:
+PCB design: KiCad (2012-01-19 BZR 3256)-stable
+
+The Unified Motion Controller is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
